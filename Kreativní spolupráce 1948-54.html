@@ -84,15 +84,16 @@ select{font:inherit;color:var(--ink);background:#202d40;border:1px solid var(--l
 .snapshot-previews h3{margin:0}
 .snapshot-previews img{width:100%;height:min(34vh,300px);object-fit:contain}
 .snapshot-previews button:disabled{opacity:.5}
+.menu-link{display:inline-block;margin-bottom:14px;color:var(--accent);text-underline-offset:3px}
 </style>
-<header><p class="eyebrow">Síťová analýza · animovaný film</p><h1>Kreativní spolupráce 1948-54</h1><nav id="networks" aria-label="Výběr sítě"></nav></header>
+<header><a class="menu-link" href="./index.html">← Zpět na výběr období</a><p class="eyebrow">Síťová analýza · animovaný film</p><h1>Kreativní spolupráce 1948-54</h1><nav id="networks" aria-label="Výběr sítě"></nav></header>
 <div id="panels"></div>
 <template id="network-template"><article>
   <header><div><h2 data-part="title"></h2><p data-part="summary"></p></div></header>
   <div class="legend" role="group" aria-label="Legenda sítě" data-part="legend"></div>
   <div class="scale" data-part="scale"></div>
   <div class="controls"><input data-part="search" type="search" placeholder="Vyhledat uzel" aria-label="Vyhledat uzel"><datalist data-part="names"></datalist> <button type="button" data-part="filtered-layout" hidden>Uspořádat síť podle filtru</button> <button data-part="reset">Resetovat síť</button> <label><input type="checkbox" data-part="labels"> Všechny popisky</label> <label>Velikost uzlu <select data-part="metric"><option value="degree">Stupeň</option><option value="between">Betweenness centrality</option></select></label></div>
-  <main data-part="viewer"><div class="view-tools"><button type="button" data-part="theme" aria-pressed="false">Světlý režim</button><button type="button" data-part="snapshot" title="Uložit aktuální výřez jako SVG">Snímek</button><button type="button" data-part="fullscreen" aria-label="Celá obrazovka" title="Celá obrazovka"><span aria-hidden="true">⛶</span></button><span data-part="view-status" role="status"></span></div><div class="panel-tools"><button type="button" data-part="toggle-detail" aria-expanded="true">Skrýt panel</button></div><svg data-part="graph" aria-label="Interaktivní graf sítě"><g data-part="layer"></g></svg><aside data-part="detail" aria-live="polite"></aside><dialog data-part="snapshot-dialog" aria-label="Export snímku">
+  <main data-part="viewer"><div class="view-tools"><button type="button" data-part="zoom-in" aria-label="Přiblížit" title="Přiblížit">+</button><button type="button" data-part="zoom-out" aria-label="Oddálit" title="Oddálit">−</button><button type="button" data-part="theme" aria-pressed="false">Světlý režim</button><button type="button" data-part="snapshot" title="Uložit aktuální výřez jako SVG">Snímek</button><button type="button" data-part="fullscreen" aria-label="Celá obrazovka" title="Celá obrazovka"><span aria-hidden="true">⛶</span></button><span data-part="view-status" role="status"></span></div><div class="panel-tools"><button type="button" data-part="toggle-detail" aria-expanded="true">Skrýt panel</button></div><svg data-part="graph" aria-label="Interaktivní graf sítě"><g data-part="layer"></g></svg><aside data-part="detail" aria-live="polite"></aside><dialog data-part="snapshot-dialog" aria-label="Export snímku">
   <h2>Export snímku</h2>
   <label><input type="checkbox" data-part="snapshot-legend" checked> Legenda</label>
   <label><input type="checkbox" data-part="snapshot-detail"> Boční panel</label>
@@ -333,9 +334,11 @@ edges.forEach(e=>{
 const spacious=folder==='Collab48-54_Osoba-Osoba';
 
 const maxDegree=Math.max(1,...nodes.map(n=>n.degree));
-const nodeHue=!directed&&folder.startsWith('Production')?275:2;
+const productionPeople=!directed&&folder.startsWith('Production');
+const nodeHue=productionPeople?275:spacious?213:2;
+const radiusScale=productionPeople?.7:1;
 const metricColor=fraction=>'hsl('+nodeHue+' 85% '+(43+39*fraction)+'%)';
-nodes.forEach(n=>n.r=(spacious||directed)?4+20*n.degree/maxDegree:groups.findLast(([,min])=>n.degree>=min)[2]);
+nodes.forEach(n=>n.r=radiusScale*((spacious||directed)?4+20*n.degree/maxDegree:groups.findLast(([,min])=>n.degree>=min)[2]));
 byId('title').textContent=title;
 byId('summary').textContent=nodes.length+' uzlů · '+edges.length+' vazeb · '+folder;
 const legend=byId('legend');
@@ -584,7 +587,7 @@ function applyMetric(relayout){
   const maxDegree=Math.max(1,...nodes.map(n=>n.degree));
   nodes.forEach((n,i)=>{
     const degreeRadius=(spacious||directed)?4+20*n.degree/maxDegree:groups.findLast(([,min])=>n.degree>=min)[2];
-    const r=useCentrality?4+20*Math.sqrt(centrality[i]/max):degreeRadius;
+    const r=radiusScale*(useCentrality?4+20*Math.sqrt(centrality[i]/max):degreeRadius);
     n.r=r;
     if(!directed)n.mark.setAttribute('fill',metricColor(useCentrality?centrality[i]/max:n.degree/maxDegree));
     if(directed&&n.Type==='Film'){
@@ -810,8 +813,50 @@ function positionNode(n,x,y){
   n.label.setAttribute('y',y+4);
 }
 let drag;
+let pinch;
+function pinchState(touches){
+  const [a,b]=touches;
+  return {clientX:(a.clientX+b.clientX)/2,clientY:(a.clientY+b.clientY)/2,
+    distance:Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY)};
+}
+function scaleView(anchor,factor){
+  const base=bounds[0][1]-bounds[0][0];
+  const scale=Math.max(base*.05,Math.min(base*5,view[2]*factor))/view[2];
+  view=[anchor.x+(view[0]-anchor.x)*scale,anchor.y+(view[1]-anchor.y)*scale,view[2]*scale,view[3]*scale];
+  show();
+}
+graph.addEventListener('touchstart',event=>{
+  if(event.touches.length!==2)return;
+  event.preventDefault();
+  stopZoom();
+  stopLayoutAnimation();
+  drag=null;
+  pinch=pinchState(event.touches);
+},{passive:false});
+graph.addEventListener('touchmove',event=>{
+  if(!pinch||event.touches.length!==2)return;
+  event.preventDefault();
+  const next=pinchState(event.touches);
+  if(next.distance>0&&pinch.distance>0){
+    const anchor=point(pinch), center=point(next);
+    view[0]+=anchor.x-center.x;
+    view[1]+=anchor.y-center.y;
+    scaleView(anchor,pinch.distance/next.distance);
+  }
+  pinch=next;
+},{passive:false});
+for(const type of ['touchend','touchcancel']){
+  graph.addEventListener(type,event=>{if(event.touches.length<2)pinch=null});
+}
+for(const [part,factor] of [['zoom-in',.75],['zoom-out',1/.75]]){
+  byId(part).onclick=()=>{
+    stopZoom();
+    scaleView({x:view[0]+view[2]/2,y:view[1]+view[3]/2},factor);
+  };
+}
+
 graph.addEventListener('pointerdown',e=>{
-  if(e.button!==0||drag)return;
+  if(e.button!==0||drag||pinch||!e.isPrimary)return;
   stopLayoutAnimation();
   stopZoom();
   const node=nodeByMark.get(e.target.closest('[data-node]'));
