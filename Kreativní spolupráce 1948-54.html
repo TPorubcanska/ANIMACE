@@ -333,7 +333,8 @@ edges.forEach(e=>{
 const spacious=folder==='Collab48-54_Osoba-Osoba';
 
 const maxDegree=Math.max(1,...nodes.map(n=>n.degree));
-const metricColor=fraction=>'hsl(2 85% '+(43+39*fraction)+'%)';
+const nodeHue=!directed&&folder.startsWith('Production')?275:2;
+const metricColor=fraction=>'hsl('+nodeHue+' 85% '+(43+39*fraction)+'%)';
 nodes.forEach(n=>n.r=(spacious||directed)?4+20*n.degree/maxDegree:groups.findLast(([,min])=>n.degree>=min)[2]);
 byId('title').textContent=title;
 byId('summary').textContent=nodes.length+' uzlů · '+edges.length+' vazeb · '+folder;
