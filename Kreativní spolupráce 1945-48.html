@@ -109,7 +109,6 @@ select{font:inherit;color:var(--ink);background:#202d40;border:1px solid var(--l
 const networks=JSON.parse(document.getElementById('data').textContent);
 const colors=new Map(Object.entries({"Animace":"#ff8b24","Animace-other":"#23d8ef","Architekt":"#f85acc","Architekt-other":"#91e52a","Choreografie":"#a983ff","Dramaturgie":"#ff544e","Hraje":"#1adca0","Hudba":"#ffd52a","Hudba-other":"#5e9dff","Kamera":"#f788bb","Kamera-other":"#00af83","Kost\u00fdmy":"#eb9aff","Masky":"#c3ed54","Mluv\u00ed":"#d88d40","N\u00e1m\u011bt":"#40c8ff","other":"#a0a4ab","Produkce":"#c974f5","Produkce-other":"#3ed457","Re\u017eie":"#f34c88","Re\u017eie-other":"#c5a036","Sc\u00e9nografie":"#51f0d1","Sc\u00e9n\u00e1\u0159":"#b9acff","Sc\u00e9n\u00e1\u0159-other":"#f6a723","Skript":"#82c0ff","St\u0159ih":"#ee7398","St\u0159ih-other":"#84cf68","V\u00fdtvarn\u00edk":"#ffaf81","V\u00fdtvarn\u00edk-other":"#7e8ef9","v\u00fdtvarn\u00edk-other":"#d7dd43","Zvuk":"#34b8b7","Zvuk-other":"#ffb6da"}));
 const filmColor='#ffc46e', personColor='#58d9cd', collabColor='#a5b8cf';
-const groups=[['0',0,4],['1',1,5.5],['2–4',2,7],['5–9',5,9],['10–19',10,11],['20+',20,13]];
 const template=document.getElementById('network-template');
 const panels=document.getElementById('panels');
 const tabs=document.getElementById('networks');
@@ -287,7 +286,7 @@ const graph=byId('graph'), layer=byId('layer'), detail=byId('detail'), search=by
 const names=byId('names');
 names.id='names-'+index;
 search.setAttribute('list',names.id);
-const degreeName=directed?'Vstupní stupeň (In-degree)':'Stupeň (Degree)';
+const degreeName='Vstupní stupeň (In-degree)';
 const people=new Map(nodes.map(n=>[n.Id,n]));
 const fields={rok_narozeni:'Rok narození',pohlavi:'Pohlaví',vzdelani:'Vzdělání',narodnost:'Národnost',bydliste:'Bydliště',Type:'Typ',rok_vyroby:'Rok výroby',barva:'Barva filmu',delka_35mm:'Délka 35 mm',zanr:'Žánr',typ:'Typ filmu',filmova_technika:'Filmová technika',vyrobce:'Výrobce',serial:'Seriál',Weight:'Počet společných filmů',Shared_Films:'ID společných filmů',pozice_kat:'Kategorie pozice',pozice_orig:'Původní pozice',P1_Roles_Kat:'Kategorie pozic první osoby',P2_Roles_Kat:'Kategorie pozic druhé osoby',P1_Roles_Orig:'Původní pozice první osoby',P2_Roles_Orig:'Původní pozice druhé osoby'};
 function attributes(row,includeType=true){
@@ -338,7 +337,7 @@ const productionPeople=!directed&&folder.startsWith('Production');
 const nodeHue=productionPeople?275:spacious?213:2;
 const radiusScale=productionPeople?.7:1;
 const metricColor=fraction=>'hsl('+nodeHue+' 85% '+(43+39*fraction)+'%)';
-nodes.forEach(n=>n.r=radiusScale*((spacious||directed)?4+20*n.degree/maxDegree:groups.findLast(([,min])=>n.degree>=min)[2]));
+nodes.forEach(n=>n.r=radiusScale*(4+20*n.degree/maxDegree));
 byId('title').textContent=title;
 byId('summary').textContent=nodes.length+' uzlů · '+edges.length+' vazeb · '+folder;
 const legend=byId('legend');
@@ -394,8 +393,7 @@ if(directed){
     swatch(legend,'Více společných filmů · silnější a světlejší hrana',edgeColor({Weight:maxWeight}),'line');
   }
 }
-if(directed)write('p',degreeName+' · poloměr uzlu roste s počtem vstupních vazeb.',byId('scale'));
-else if(!spacious)write('p',degreeName+' · velikost uzlů a popisků podle tříd '+groups.map(([label])=>label).join(', '),byId('scale'));
+write('p',degreeName+' · poloměr uzlu roste s počtem vstupních vazeb.',byId('scale'));
 const labels=byId('labels');
 
 arrangeComponents(nodes,edges,spacious,graph.clientWidth/graph.clientHeight||1.8);
@@ -586,7 +584,7 @@ function applyMetric(relayout){
   const max=useCentrality?Math.max(...centrality)||1:1;
   const maxDegree=Math.max(1,...nodes.map(n=>n.degree));
   nodes.forEach((n,i)=>{
-    const degreeRadius=(spacious||directed)?4+20*n.degree/maxDegree:groups.findLast(([,min])=>n.degree>=min)[2];
+    const degreeRadius=4+20*n.degree/maxDegree;
     const r=radiusScale*(useCentrality?4+20*Math.sqrt(centrality[i]/max):degreeRadius);
     n.r=r;
     if(!directed)n.mark.setAttribute('fill',metricColor(useCentrality?centrality[i]/max:n.degree/maxDegree));
@@ -726,14 +724,15 @@ function select(n){
     write('p','Rozložení podle ForceAtlas2 · samostatné komponenty jsou seskupené poblíž hlavní sítě.');
     if(metric.value==='between')write('p','Větší uzly leží na více nejkratších cestách mezi dvojicemi uzlů.');
     else if(directed)write('p','Velikost uzlu roste s počtem vstupních vazeb.');
-    else write('p',spacious?'Velikost uzlu roste podle počtu jeho vazeb (Degree).':'Velikost uzlů odpovídá třídám uvedeným v legendě.');
+    else write('p','V neorientované síti se do stupně započítávají všechny vazby uzlu.');
     write('p','Kliknutím na uzel zobrazíte jeho atributy a vazby. Kolečkem síť přiblížíte a tažením pozadí ji posunete.');
     return;
   }
   write('h2',n.Label);
   write('p',degreeName+' · '+n.degree);
+  centrality ??= calculateCentrality();
+  write('p','Betweenness centrality · '+centrality[nodes.indexOf(n)].toFixed(5));
   attributes(n).forEach(line=>write('p',line));
-  if(centrality)write('p','Betweenness centrality · '+centrality[nodes.indexOf(n)].toFixed(5));
   write('h3','Spolupráce ('+links.length+')');
   const list=write('ul','');
   links.sort((a,b)=>b[1].Weight-a[1].Weight||a[0].Label.localeCompare(b[0].Label,'cs')).forEach(([p,e])=>{
