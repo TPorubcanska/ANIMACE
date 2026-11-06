@@ -1,2 +1,2 @@
 # ANIMACE
-historu, networks, animation
+history, networks, animation
