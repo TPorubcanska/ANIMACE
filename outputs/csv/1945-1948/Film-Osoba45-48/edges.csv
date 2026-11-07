@@ -1,0 +1,617 @@
+﻿Source,Target,pozice_kat,pozice_orig,Type
+575,529,Animace,Animátor/Animace,Directed
+575,531,Animace,Animátor/Animace,Directed
+575,442,Animace,Animátor/Animace,Directed
+575,139,Animace,Animátor/Animace,Directed
+575,553,Animace,Animátor/Animace,Directed
+575,555,Animace,Animátor/Animace,Directed
+575,524,Hudba,Hudba,Directed
+575,580,Hudba-other,Dirigent,Directed
+575,576,Námět,Námět,Directed
+575,530,other,Spolupráce,Directed
+575,533,other,Spolupráce,Directed
+575,457,other,Spolupráce,Directed
+575,579,other,Spolupráce,Directed
+575,576,other,Spolupráce,Directed
+575,1951,other,Spolupráce,Directed
+575,573,Produkce,Produkce,Directed
+575,525,Produkce-other,Výkonný producent,Directed
+575,520,Režie,Režie,Directed
+575,572,Režie-other,Asistent režie,Directed
+575,565,Scénář,Scénář,Directed
+575,577,Scénář,Scénář,Directed
+575,520,Scénář,Scénář,Directed
+575,527,Střih,Střihač,Directed
+575,569,Střih,Střihač,Directed
+575,578,Výtvarník,Výtvarník,Directed
+9287,531,Animace,Animátor/Animace,Directed
+9287,1958,Animace,Animátor/Animace,Directed
+9287,571,Animace,Animátor/Animace,Directed
+9287,553,Animace,Animátor/Animace,Directed
+9287,442,Animace,Animátor/Animace,Directed
+9287,530,other,Spolupráce,Directed
+9287,650,Hudba,Hudba,Directed
+9287,590,Kamera,Kamera,Directed
+9287,572,Námět,Námět,Directed
+9287,532,Režie,Režie,Directed
+9287,9293,Scénář,Scénář,Directed
+9287,532,Scénář,Scénář,Directed
+9287,11175,Scénář,Scénář,Directed
+9287,535,other,Spolupráce,Directed
+9287,534,other,Spolupráce,Directed
+9287,533,other,Spolupráce,Directed
+9287,520,other,Spolupráce,Directed
+9287,457,other,Spolupráce,Directed
+9287,1947,other,Spolupráce,Directed
+9287,1866,other,Spolupráce,Directed
+9287,582,other,Spolupráce,Directed
+9287,565,other,Spolupráce,Directed
+9287,527,Střih,Střihač,Directed
+9287,525,Produkce,Vedoucí produkce/Vedoucí výroby,Directed
+9287,567,Výtvarník,Výtvarník,Directed
+6098,2038,Scénář-other,Autor komentáře,Directed
+6098,180,Animace,Hra loutek / Vedení loutek,Directed
+6098,6099,Kamera,Kamera,Directed
+6098,6100,Mluví,Komentář čte,Directed
+6098,2038,Námět,Námět,Directed
+6098,2862,Námět,Námět,Directed
+6098,2038,Režie,Režie,Directed
+6098,2038,Scénář,Scénář,Directed
+6098,6101,Střih,Střihač,Directed
+6098,6103,Produkce,Vedoucí produkce/Vedoucí výroby,Directed
+6098,6102,Zvuk,Zvuk,Directed
+1554,74,Kamera,Kamera,Directed
+1554,180,Režie,Režie,Directed
+3011,587,Animace,Animátor/Animace,Directed
+3011,535,Animace,Animátor/Animace,Directed
+3011,534,Animace,Animátor/Animace,Directed
+3011,1947,Animace,Animátor/Animace,Directed
+3011,2540,Animace,Animátor/Animace,Directed
+3011,2539,Produkce-other,Asistent vedoucího produkce/Asistent vedoucího výroby,Directed
+3011,948,Scénář-other,Autor předlohy,Directed
+3011,2842,Hudba-other,Dirigent,Directed
+3011,2585,Hudba-other,Dirigent,Directed
+3011,588,Hudba,Hudba,Directed
+3011,2306,Kamera,Kamera,Directed
+3011,3012,Kamera,Kamera,Directed
+3011,582,Režie,Režie,Directed
+3011,577,Režie,Režie,Directed
+3011,3007,Scénář,Scénář,Directed
+3011,565,Scénář,Scénář,Directed
+3011,582,Scénář,Scénář,Directed
+3011,582,Střih,Střihač,Directed
+3011,527,Střih,Střihač,Directed
+3011,1944,other,Technická spolupráce,Directed
+3011,2542,other,Technická spolupráce,Directed
+3011,582,Scénář-other,Technický scénář,Directed
+3011,2538,Produkce,Vedoucí produkce/Vedoucí výroby,Directed
+3011,2543,Výtvarník-other,Výtvarná spolupráce,Directed
+3011,2544,Výtvarník-other,Výtvarná spolupráce,Directed
+3011,1994,Výtvarník-other,Výtvarná spolupráce,Directed
+3011,3013,Výtvarník-other,Výtvarná spolupráce,Directed
+3011,3014,Výtvarník-other,Výtvarná spolupráce,Directed
+3011,2546,Výtvarník-other,Výtvarná spolupráce,Directed
+3011,2541,Výtvarník-other,Výtvarná spolupráce,Directed
+3011,2306,Výtvarník-other,Výtvarná spolupráce,Directed
+3011,582,Výtvarník,Výtvarník,Directed
+3011,2142,Zvuk,Zvuk,Directed
+1553,91,Animace,Animátor/Animace,Directed
+1553,574,Hudba-other,Dirigent,Directed
+1553,122,Hudba,Hudba,Directed
+1553,1491,Kamera,Kamera,Directed
+1553,74,Kamera,Kamera,Directed
+1553,91,Námět,Námět,Directed
+1553,61,Produkce,Produkce,Directed
+1553,91,Režie,Režie,Directed
+1553,91,Scénář,Scénář,Directed
+1553,1508,other,Spolupráce,Directed
+1553,1492,Střih,Střihač,Directed
+949,650,Hudba,Hudba,Directed
+949,724,Mluví,Komentář čte,Directed
+949,530,Námět,Námět,Directed
+949,530,Režie,Režie,Directed
+949,530,Scénář,Scénář,Directed
+949,530,Výtvarník,Výtvarník,Directed
+949,542,Námět,Námět,Directed
+949,542,Režie,Režie,Directed
+949,542,Scénář,Scénář,Directed
+1683,1487,Hudba,Hudba,Directed
+1683,2453,Kamera,Kamera,Directed
+1683,1491,Kamera,Kamera,Directed
+1683,6097,Mluví,Komentář čte,Directed
+1683,61,Produkce,Produkce,Directed
+1683,6096,Režie,Režie,Directed
+1683,2250,Režie,Režie,Directed
+1683,1154,Střih,Střihač,Directed
+1683,180,Animace-other,Triky,Directed
+1683,432,Animace-other,Triky,Directed
+1683,1569,Produkce,Vedoucí produkce/Vedoucí výroby,Directed
+1683,647,Zvuk,Zvuk,Directed
+15768,15771,Architekt,Architekt,Directed
+15768,872,Scénář-other,Autor předlohy,Directed
+15768,15770,Kamera-other,Druhý kameraman,Directed
+15768,3064,Hudba,Hudba,Directed
+15768,13422,Kamera,Kamera,Directed
+15768,15772,Kostýmy,Kostýmy,Directed
+15768,15773,Kostýmy,Kostýmy,Directed
+15768,15774,Kostýmy,Kostýmy,Directed
+15768,11616,Masky,Masky,Directed
+15768,15775,Masky,Masky,Directed
+15768,2913,Masky,Masky,Directed
+15768,2528,Produkce,Produkce,Directed
+15768,7511,Režie,Režie,Directed
+15768,2909,Scénář,Scénář,Directed
+15768,15769,Skript,Skript,Directed
+15768,3072,Střih,Střihač,Directed
+15768,582,Výtvarník,Výtvarník,Directed
+15768,15776,Zvuk,Zvuk,Directed
+13557,180,Animace,Animátor/Animace,Directed
+13557,13561,Hudba,Hudba,Directed
+13557,13199,Kamera,Kamera,Directed
+13557,1565,Režie,Režie,Directed
+13557,13558,Režie-other,Režijní spolupráce,Directed
+13557,13559,Scénář,Scénář,Directed
+13557,13560,Scénář,Scénář,Directed
+13557,2909,Zvuk,Zvuk,Directed
+3016,442,Animace,Animátor/Animace,Directed
+3016,677,Hraje,Hraje,Directed
+3016,524,Hudba-other,Hudbu nahrál,Directed
+3016,529,Choreografie,Choreografie,Directed
+3016,664,Kamera,Kamera,Directed
+3016,677,Mluví,Komentář čte,Directed
+3016,530,other,Spolupráce,Directed
+3016,565,Námět,Námět,Directed
+3016,582,Námět,Námět,Directed
+3016,582,Režie,Režie,Directed
+3016,3017,Režie,Režie,Directed
+3016,565,Režie-other,Režijní spolupráce,Directed
+3016,565,Scénář,Scénář,Directed
+3016,582,Scénář,Scénář,Directed
+3016,520,Scénář,Scénář,Directed
+3016,532,other,Spolupráce,Directed
+3016,534,other,Spolupráce,Directed
+3016,536,other,Spolupráce,Directed
+3016,590,other,Spolupráce,Directed
+3016,573,other,Spolupráce,Directed
+3016,457,other,Spolupráce,Directed
+3016,589,other,Spolupráce,Directed
+3016,664,other,Spolupráce,Directed
+3016,3019,other,Spolupráce,Directed
+3016,587,other,Spolupráce,Directed
+3016,553,other,Spolupráce,Directed
+3016,527,Střih,Střihač,Directed
+3016,582,Výtvarník-other,Umělecké vedení,Directed
+3016,525,Produkce,Vedoucí produkce/Vedoucí výroby,Directed
+3016,582,Výtvarník,Výtvarník,Directed
+3016,2142,Zvuk,Zvuk,Directed
+541,542,Námět,Námět,Directed
+541,542,Režie,Režie,Directed
+541,530,Námět,Námět,Directed
+541,530,Režie,Režie,Directed
+541,530,Scénář,Scénář,Directed
+541,530,Výtvarník,Výtvarník,Directed
+541,542,Scénář,Scénář,Directed
+600,1366,Hudba,Hudba,Directed
+600,602,Námět,Námět,Directed
+600,601,Režie,Režie,Directed
+600,601,Scénář,Scénář,Directed
+600,602,Scénář,Scénář,Directed
+600,604,Výtvarník,Výtvarník,Directed
+519,721,Animace,Animátor/Animace,Directed
+519,442,Animace,Animátor/Animace,Directed
+519,529,Animace,Animátor/Animace,Directed
+519,524,Hudba,Hudba,Directed
+519,523,Kamera,Kamera,Directed
+519,521,Námět,Námět,Directed
+519,520,Režie,Režie,Directed
+519,530,other,Spolupráce,Directed
+519,520,Scénář,Scénář,Directed
+519,522,Scénář,Scénář,Directed
+519,531,other,Spolupráce,Directed
+519,532,other,Spolupráce,Directed
+519,533,other,Spolupráce,Directed
+519,457,other,Spolupráce,Directed
+519,534,other,Spolupráce,Directed
+519,535,other,Spolupráce,Directed
+519,536,other,Spolupráce,Directed
+519,537,other,Spolupráce,Directed
+519,1951,other,Spolupráce,Directed
+519,571,other,Spolupráce,Directed
+519,540,other,Spolupráce,Directed
+519,527,Střih,Střihač,Directed
+519,525,Produkce-other,Výkonný producent,Directed
+519,526,Výtvarník,Výtvarník,Directed
+648,650,Hudba,Hudba,Directed
+648,649,Námět,Námět,Directed
+648,542,Režie,Režie,Directed
+648,530,Režie,Režie,Directed
+648,530,Scénář,Scénář,Directed
+648,530,Výtvarník,Výtvarník,Directed
+648,542,Scénář,Scénář,Directed
+1489,180,Animace,Animátor/Animace,Directed
+1489,122,Hudba,Hudba,Directed
+1489,1491,Kamera,Kamera,Directed
+1489,1490,Námět,Námět,Directed
+1489,180,Režie,Režie,Directed
+1489,180,Scénář,Scénář,Directed
+1489,1492,Střih,Střihač,Directed
+1489,180,Výtvarník,Výtvarník,Directed
+2429,2842,Hudba-other,Dirigent,Directed
+2429,8687,Hudba,Hudba,Directed
+2429,1947,Námět,Námět,Directed
+2429,534,Režie,Režie,Directed
+2429,582,Režie,Režie,Directed
+2429,530,other,Spolupráce,Directed
+2429,442,Scénář,Scénář,Directed
+2429,582,Scénář,Scénář,Directed
+2429,534,Scénář,Scénář,Directed
+2429,553,other,Spolupráce,Directed
+2429,442,other,Spolupráce,Directed
+2429,457,other,Spolupráce,Directed
+2429,555,other,Spolupráce,Directed
+2429,533,other,Spolupráce,Directed
+2429,529,other,Spolupráce,Directed
+2429,536,other,Spolupráce,Directed
+2429,721,other,Spolupráce,Directed
+2429,537,other,Spolupráce,Directed
+2429,571,other,Spolupráce,Directed
+2429,527,other,Spolupráce,Directed
+2429,540,other,Spolupráce,Directed
+2429,1951,other,Spolupráce,Directed
+2429,525,Produkce-other,Vedoucí výrobního štábu,Directed
+2429,582,Výtvarník,Výtvarník,Directed
+2429,2142,Zvuk,Zvuk,Directed
+2429,2430,Zvuk-other,Zvukové efekty,Directed
+3058,2101,Scénář-other,Autor komentáře,Directed
+3058,864,Hudba,Hudba,Directed
+3058,2101,Kamera,Kamera,Directed
+3058,2101,Námět,Námět,Directed
+3058,2101,Režie,Režie,Directed
+3058,2101,Scénář,Scénář,Directed
+3058,2101,Střih,Střihač,Directed
+3058,2101,Produkce,Vedoucí produkce/Vedoucí výroby,Directed
+3058,644,Výtvarník,Výtvarník,Directed
+3058,3061,Zvuk,Zvuk,Directed
+3062,2540,Animace,Animátor/Animace,Directed
+3062,1947,Animace,Animátor/Animace,Directed
+3062,535,Animace,Animátor/Animace,Directed
+3062,587,Animace,Animátor/Animace,Directed
+3062,3063,Animace,Animátor/Animace,Directed
+3062,632,Scénář-other,Autor předlohy,Directed
+3062,3064,Hudba,Hudba,Directed
+3062,664,Kamera,Kamera,Directed
+3062,1947,Kamera,Kamera,Directed
+3062,3005,Kamera,Kamera,Directed
+3062,2862,Režie,Režie,Directed
+3062,520,Režie,Režie,Directed
+3062,2862,Scénář,Scénář,Directed
+3062,520,Scénář,Scénář,Directed
+3062,525,Produkce,Vedoucí produkce/Vedoucí výroby,Directed
+3062,582,Výtvarník,Výtvarník,Directed
+8672,2384,Kamera,Kamera,Directed
+8672,7213,Mluví,Mluví,Directed
+8672,8674,Režie,Režie,Directed
+8672,8674,Scénář,Scénář,Directed
+8672,7663,Střih,Střihač,Directed
+8672,1519,Animace-other,Triky,Directed
+8672,8625,Produkce,Výroba,Directed
+8669,574,Hudba,Hudba,Directed
+8669,1556,Kamera,Kamera,Directed
+8669,8679,Mluví,Komentář čte,Directed
+8669,1519,Animace-other,Kresby,Directed
+8669,2038,Námět,Námět,Directed
+8669,2038,Režie,Režie,Directed
+8669,2038,Scénář,Scénář,Directed
+8669,8681,Střih,Střihač,Directed
+8669,8680,Produkce,Vedoucí produkce/Vedoucí výroby,Directed
+6291,457,Animace,Animátor/Animace,Directed
+6291,8686,Scénář-other,Autor předlohy,Directed
+6291,8687,Hudba,Hudba,Directed
+6291,457,Režie,Režie,Directed
+6291,572,Režie,Režie,Directed
+6291,576,Režie,Režie,Directed
+2858,1491,Kamera,Kamera,Directed
+2858,2859,Kamera,Kamera,Directed
+2858,1572,Námět,Námět,Directed
+2858,2250,Režie,Režie,Directed
+2858,91,Režie,Režie,Directed
+2858,91,Scénář,Scénář,Directed
+2858,2250,Scénář,Scénář,Directed
+2858,2830,other,Spolupráce,Directed
+2858,1563,other,Spolupráce,Directed
+2858,2860,other,Spolupráce,Directed
+2858,1492,Střih,Střihač,Directed
+1548,122,Hudba,Hudba,Directed
+1548,74,Kamera,Kamera,Directed
+1548,180,Námět,Námět,Directed
+1548,61,Produkce,Produkce,Directed
+1548,180,Režie,Režie,Directed
+1548,180,Scénář,Scénář,Directed
+1548,1259,other,Spolupráce,Directed
+1548,1132,other,Spolupráce,Directed
+1548,1154,Střih,Střihač,Directed
+1548,180,Výtvarník,Výtvarník,Directed
+13865,74,Kamera,Kamera,Directed
+13865,180,Režie,Režie,Directed
+1549,122,Hudba,Hudba,Directed
+1549,1491,Kamera,Kamera,Directed
+1549,1550,Kamera,Kamera,Directed
+1549,180,Námět,Námět,Directed
+1549,180,Režie,Režie,Directed
+1549,180,Scénář,Scénář,Directed
+1549,1154,Střih,Střihač,Directed
+1549,180,Výtvarník,Výtvarník,Directed
+1551,180,Animace,Animátor/Animace,Directed
+1551,122,Hudba,Hudba,Directed
+1551,74,Kamera,Kamera,Directed
+1551,180,Námět,Námět,Directed
+1551,180,Režie,Režie,Directed
+1551,180,Scénář,Scénář,Directed
+1551,1154,Střih,Střihač,Directed
+1551,180,Výtvarník,Výtvarník,Directed
+691,534,Animace,Animátor/Animace,Directed
+691,532,Animace,Animátor/Animace,Directed
+691,442,Animace,Animátor/Animace,Directed
+691,692,Animace,Animátor/Animace,Directed
+691,536,Animace,Animátor/Animace,Directed
+691,457,Animace,Animátor/Animace,Directed
+691,587,Animace,Animátor/Animace,Directed
+691,553,Animace,Animátor/Animace,Directed
+691,574,Hudba-other,Dirigent,Directed
+691,524,Hudba,Hudba,Directed
+691,664,Kamera,Kamera,Directed
+691,522,Námět,Námět,Directed
+691,582,Režie,Režie,Directed
+691,582,Scénář,Scénář,Directed
+691,565,Scénář,Scénář,Directed
+691,576,other,Spolupráce,Directed
+691,693,other,Spolupráce,Directed
+691,570,other,Spolupráce,Directed
+691,573,other,Spolupráce,Directed
+691,542,other,Spolupráce,Directed
+691,540,other,Spolupráce,Directed
+691,525,Produkce,Vedoucí produkce/Vedoucí výroby,Directed
+691,582,Výtvarník,Výtvarník,Directed
+1517,180,Animace,Animátor/Animace,Directed
+1517,1518,Hudba,Hudba,Directed
+1517,180,Kamera,Kamera,Directed
+1517,180,Námět,Námět,Directed
+1517,180,Režie,Režie,Directed
+1517,180,Scénář,Scénář,Directed
+1517,91,other,Spolupráce,Directed
+1517,1519,other,Spolupráce,Directed
+1517,1154,Střih,Střihač,Directed
+1517,180,Výtvarník,Výtvarník,Directed
+2090,531,Scénář-other,Literární scénář,Directed
+2090,531,Námět,Námět,Directed
+2090,531,Režie,Režie,Directed
+2090,530,Scénář-other,Literární scénář,Directed
+2090,530,Námět,Námět,Directed
+2090,530,Režie,Režie,Directed
+2090,530,Výtvarník,Výtvarník,Directed
+2090,531,Výtvarník,Výtvarník,Directed
+1114,830,Hudba,Hudba,Directed
+1114,520,Námět,Námět,Directed
+1114,1115,Námět,Námět,Directed
+1114,520,Režie,Režie,Directed
+1114,1115,Scénář,Scénář,Directed
+1114,520,Scénář,Scénář,Directed
+1114,421,Výtvarník,Výtvarník,Directed
+737,542,Režie,Režie,Directed
+737,542,Scénář,Scénář,Directed
+737,421,Scénář,Scénář,Directed
+737,530,Námět,Námět,Directed
+737,530,Režie,Režie,Directed
+737,530,Scénář,Scénář,Directed
+737,738,Výtvarník,Výtvarník,Directed
+3114,587,Animace,Animátor/Animace,Directed
+3114,535,Animace,Animátor/Animace,Directed
+3114,1947,Animace,Animátor/Animace,Directed
+3114,2540,Animace,Animátor/Animace,Directed
+3114,534,Animace,Animátor/Animace,Directed
+3114,3063,Animace,Animátor/Animace,Directed
+3114,2539,Produkce-other,Asistent vedoucího produkce/Asistent vedoucího výroby,Directed
+3114,664,Kamera,Kamera,Directed
+3114,1944,Kamera,Kamera,Directed
+3114,582,Námět,Námět,Directed
+3114,588,Námět,Námět,Directed
+3114,3115,Námět,Námět,Directed
+3114,588,other,Odborný poradce,Directed
+3114,3115,other,Odborný poradce,Directed
+3114,3118,Výtvarník-other,Provedení loutek,Directed
+3114,2546,Výtvarník-other,Provedení loutek,Directed
+3114,2542,Výtvarník-other,Provedení loutek,Directed
+3114,3014,Výtvarník-other,Provedení loutek,Directed
+3114,2544,Výtvarník-other,Provedení loutek,Directed
+3114,2543,Výtvarník-other,Provedení loutek,Directed
+3114,582,Režie,Režie,Directed
+3114,582,Scénář,Scénář,Directed
+3114,582,Střih,Střihač,Directed
+3114,527,Střih,Střihač,Directed
+3114,525,Produkce,Vedoucí produkce/Vedoucí výroby,Directed
+3114,2546,Výtvarník-other,Výprava,Directed
+3114,1994,Výtvarník-other,Výprava,Directed
+3114,3116,Výtvarník-other,Výprava,Directed
+3114,2544,Výtvarník-other,Výprava,Directed
+3114,582,Výtvarník,Výtvarník,Directed
+3114,2142,Zvuk,Zvuk,Directed
+3479,531,Animace,Animátor/Animace,Directed
+3479,533,Animace,Animátor/Animace,Directed
+3479,442,Animace,Animátor/Animace,Directed
+3479,528,Animace,Animátor/Animace,Directed
+3479,667,Animace,Animátor/Animace,Directed
+3479,553,Animace,Animátor/Animace,Directed
+3479,579,Animace,Animátor/Animace,Directed
+3479,555,Animace,Animátor/Animace,Directed
+3479,692,Animace,Animátor/Animace,Directed
+3479,2842,Hudba-other,Dirigent,Directed
+3479,131,Hudba,Hudba,Directed
+3479,533,Námět,Námět,Directed
+3479,534,Námět,Námět,Directed
+3479,536,Režie,Režie,Directed
+3479,421,Režie,Režie,Directed
+3479,3115,Scénář,Scénář,Directed
+3479,565,Scénář,Scénář,Directed
+3479,421,Scénář,Scénář,Directed
+3479,536,Scénář,Scénář,Directed
+3479,572,other,Spolupráce,Directed
+3479,962,other,Spolupráce,Directed
+3479,527,other,Spolupráce,Directed
+3479,590,other,Spolupráce,Directed
+3479,570,other,Spolupráce,Directed
+3479,1951,other,Spolupráce,Directed
+3479,530,Animace,Animátor/Animace,Directed
+3479,573,Produkce,Vedoucí produkce/Vedoucí výroby,Directed
+3479,2142,Zvuk,Zvuk,Directed
+1485,1488,Architekt,Architekt,Directed
+1485,1487,Hudba,Hudba,Directed
+1485,1486,Kamera,Kamera,Directed
+1485,156,Námět,Námět,Directed
+1485,156,Režie,Režie,Directed
+1485,180,Režie,Režie,Directed
+1485,156,Scénář,Scénář,Directed
+1485,1154,Střih,Střihač,Directed
+1485,81,Produkce-other,Výkonný producent,Directed
+1485,180,Výtvarník,Výtvarník,Directed
+1485,626,Zvuk,Zvuk,Directed
+8670,8671,Režie,Režie,Directed
+8670,1519,Animace-other,Triky,Directed
+3475,442,Animace,Animátor/Animace,Directed
+3475,2842,Hudba-other,Dirigent,Directed
+3475,588,Hudba,Hudba,Directed
+3475,532,Animace-other,Kreslič,Directed
+3475,533,Animace-other,Kreslič,Directed
+3475,721,Animace-other,Kreslič,Directed
+3475,3509,Animace-other,Kreslič,Directed
+3475,534,Animace-other,Kreslič,Directed
+3475,536,Animace-other,Kreslič,Directed
+3475,457,Animace-other,Kreslič,Directed
+3475,535,Animace-other,Kreslič,Directed
+3475,587,Animace-other,Kreslič,Directed
+3475,579,Animace-other,Kreslič,Directed
+3475,3510,Animace-other,Kreslič,Directed
+3475,537,Animace-other,Kreslič,Directed
+3475,542,Animace-other,Kreslič,Directed
+3475,661,Scénář-other,Literární scénář,Directed
+3475,572,Námět,Námět,Directed
+3475,3476,other,Odborný poradce,Directed
+3475,3477,other,Odborný poradce,Directed
+3475,3478,other,Odborný poradce,Directed
+3475,661,Režie,Režie,Directed
+3475,589,other,Spolupráce,Directed
+3475,2539,other,Spolupráce,Directed
+3475,2484,other,Spolupráce,Directed
+3475,3511,other,Spolupráce,Directed
+3475,527,other,Spolupráce,Directed
+3475,525,Produkce,Vedoucí produkce/Vedoucí výroby,Directed
+3475,530,Animace-other,Kreslič,Directed
+3475,553,Výtvarník,Výtvarník,Directed
+3475,1945,Zvuk,Zvuk,Directed
+566,532,Animace,Animátor/Animace,Directed
+566,553,Animace,Animátor/Animace,Directed
+566,533,Animace,Animátor/Animace,Directed
+566,442,Animace,Animátor/Animace,Directed
+566,570,Animace,Animátor/Animace,Directed
+566,721,Animace,Animátor/Animace,Directed
+566,529,Animace,Animátor/Animace,Directed
+566,531,Animace,Animátor/Animace,Directed
+566,571,Animace,Animátor/Animace,Directed
+566,572,Režie-other,Asistent režie,Directed
+566,574,Hudba-other,Dirigent,Directed
+566,524,Hudba,Hudba,Directed
+566,567,Námět,Námět,Directed
+566,525,Produkce,Produkce,Directed
+566,568,Produkce,Produkce,Directed
+566,565,Režie,Režie,Directed
+566,565,Scénář,Scénář,Directed
+566,1951,other,Spolupráce,Directed
+566,520,other,Spolupráce,Directed
+566,569,other,Spolupráce,Directed
+566,569,Střih,Střihač,Directed
+566,573,Produkce,Vedoucí produkce/Vedoucí výroby,Directed
+566,525,Produkce-other,Výkonný producent,Directed
+566,568,Produkce-other,Výkonný producent,Directed
+566,567,Výtvarník,Výtvarník,Directed
+1564,91,Animace,Animátor/Animace,Directed
+1564,574,Hudba-other,Dirigent,Directed
+1564,1518,Hudba,Hudba,Directed
+1564,1491,Kamera,Kamera,Directed
+1564,74,Kamera,Kamera,Directed
+1564,80,Námět,Námět,Directed
+1564,156,Námět,Námět,Directed
+1564,1566,Námět,Námět,Directed
+1564,1569,Produkce,Produkce,Directed
+1564,91,Režie,Režie,Directed
+1564,1565,Režie,Režie,Directed
+1564,2250,Scénář,Scénář,Directed
+1564,91,Scénář,Scénář,Directed
+1564,1570,other,Spolupráce,Directed
+1564,1154,Střih,Střihač,Directed
+1564,1563,Výtvarník-other,Výtvarná spolupráce,Directed
+1564,1568,Zvuk,Zvuk,Directed
+660,588,Hudba,Hudba,Directed
+660,582,Námět,Námět,Directed
+660,582,Režie,Režie,Directed
+660,582,Scénář,Scénář,Directed
+660,520,Scénář,Scénář,Directed
+660,661,Scénář,Scénář,Directed
+660,534,other,Spolupráce,Directed
+660,664,other,Spolupráce,Directed
+660,457,other,Spolupráce,Directed
+660,442,other,Spolupráce,Directed
+660,553,other,Spolupráce,Directed
+660,532,other,Spolupráce,Directed
+660,665,other,Spolupráce,Directed
+660,666,other,Spolupráce,Directed
+660,667,other,Spolupráce,Directed
+660,536,other,Spolupráce,Directed
+660,587,other,Spolupráce,Directed
+660,721,other,Spolupráce,Directed
+660,542,other,Spolupráce,Directed
+660,573,other,Spolupráce,Directed
+660,589,other,Spolupráce,Directed
+660,590,other,Spolupráce,Directed
+660,525,Produkce-other,Výkonný producent,Directed
+660,582,Výtvarník,Výtvarník,Directed
+660,530,other,Spolupráce,Directed
+660,2142,Zvuk,Zvuk,Directed
+1952,1879,Režie-other,Asistent režie,Directed
+1952,574,Hudba-other,Dirigent,Directed
+1952,524,Hudba,Hudba,Directed
+1952,532,Scénář-other,Literární scénář,Directed
+1952,520,Scénář-other,Literární scénář,Directed
+1952,567,Námět,Námět,Directed
+1952,532,Režie,Režie,Directed
+1952,568,Produkce,Ředitel produkce/Ředitel výroby,Directed
+1952,601,Produkce,Vedoucí produkce/Vedoucí výroby,Directed
+1952,567,Výtvarník,Výtvarník,Directed
+1952,1953,Zvuk-other,Zvukové efekty,Directed
+1952,999,Zvuk-other,Zvukové efekty,Directed
+581,1958,Animace,Animátor/Animace,Directed
+581,442,Animace,Animátor/Animace,Directed
+581,591,Scénář-other,Autor komentáře,Directed
+581,591,Scénář-other,Autor předlohy,Directed
+581,583,Hudba,Hudba,Directed
+581,586,Mluví,Komentář čte,Directed
+581,582,Námět,Námět,Directed
+581,582,Režie,Režie,Directed
+581,525,Produkce,Ředitel produkce/Ředitel výroby,Directed
+581,582,Scénář,Scénář,Directed
+581,520,Scénář,Scénář,Directed
+581,534,Scénář,Scénář,Directed
+581,536,Scénář,Scénář,Directed
+581,532,other,Spolupráce,Directed
+581,442,other,Spolupráce,Directed
+581,587,other,Spolupráce,Directed
+581,553,other,Spolupráce,Directed
+581,572,other,Spolupráce,Directed
+581,520,other,Spolupráce,Directed
+581,588,other,Spolupráce,Directed
+581,589,other,Spolupráce,Directed
+581,590,other,Spolupráce,Directed
+581,573,other,Spolupráce,Directed
+581,527,Střih,Střihač,Directed
+581,520,Výtvarník-other,Výtvarná spolupráce,Directed
+581,582,Výtvarník,Výtvarník,Directed
+581,530,other,Spolupráce,Directed
+581,584,Zvuk,Zvuk,Directed
