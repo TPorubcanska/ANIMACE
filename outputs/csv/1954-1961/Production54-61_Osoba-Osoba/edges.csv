@@ -1,0 +1,548 @@
+﻿Source,Target,Weight,Shared_Films,P1_Roles_Kat,P2_Roles_Kat,P1_Roles_Orig,P2_Roles_Orig,Type
+91,125,4,1343|1537|1584|1624,Režie|Režie|Režie|Režie,Režie|Režie|Režie|Režie,Režie|Režie|Režie|Režie,Režie|Režie|Režie|Režie,Undirected
+91,413,5,1151|1158|1343|1482|1624,Režie|Režie|Režie|Režie|Režie,"Animace, Režie|Animace, Režie|Animace|Režie|Animace",Režie|Režie|Režie|Režie|Režie,"Animátor/Animace, Režie|Animátor/Animace, Režie|Animátor/Animace|Režie|Animátor/Animace",Undirected
+91,417,2,1586|1624,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+91,432,2,1151|1158,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+91,1125,8,1151|1158|1482|1501|1538|1584|1586|1624,Režie|Režie|Režie|Režie|Režie|Režie|Režie|Režie,Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce,Režie|Režie|Režie|Režie|Režie|Režie|Režie|Režie,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Produkce|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+124,143,2,1483|1609,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Režie|Režie,Undirected
+124,1132,2,1483|1609,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+124,1138,1,1609,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+124,1259,2,1483|1609,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+124,1851,2,1483|1609,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+125,413,2,1343|1624,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+125,417,1,1624,Režie,Animace,Režie,Animátor/Animace,Undirected
+125,1125,2,1584|1624,Režie|Režie,Produkce|Produkce,Režie|Režie,Produkce|Vedoucí produkce/Vedoucí výroby,Undirected
+139,442,1,2376,Animace,Režie,Animátor/Animace,Režie,Undirected
+139,457,1,1012,Animace,Režie,Animátor/Animace,Režie,Undirected
+139,530,2,1862|2016,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Režie|Režie,Undirected
+139,531,3,1012|1862|2016,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+139,533,3,630|1012|1862,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+139,553,6,1012|1015|1862|2016|7236|7239,Animace|Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+139,554,2,1862|2376,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+139,555,2,1015|7236,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+139,556,2,1862|7236,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+139,562,2,1015|7236,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Produkce|Vedoucí produkce/Vedoucí výroby,Undirected
+139,565,2,7236|7239,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Režie|Režie,Undirected
+139,571,2,1862|7239,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+139,573,1,1862,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+139,614,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+139,628,1,630,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+139,631,3,630|1012|1015,Animace|Animace|Animace,Režie|Animace|Režie,Animátor/Animace|Animátor/Animace|Animátor/Animace,Režie|Animátor/Animace|Režie,Undirected
+139,644,4,630|1012|1862|2376,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+139,646,3,2016|2376|7236,Animace|Animace|Animace,Produkce|Produkce|Produkce,Animátor/Animace|Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+139,685,4,1015|1862|2016|7236,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+139,718,3,1012|1015|1862,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+139,721,4,1012|1015|1862|2016,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+139,736,4,630|1012|1015|1862,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+139,782,6,630|1012|1015|1862|2376|7236,Animace|Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+139,795,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+139,796,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+139,962,3,1012|1862|7239,Animace|Animace|Animace,Produkce|Produkce|Produkce,Animátor/Animace|Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+139,1654,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+139,1655,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+140,530,5,15652|15653|15654|16017|16375,Režie|Režie|Režie|Režie|Režie,Režie|Režie|Režie|Animace|Režie,Režie|Režie|Režie|Režie|Režie,Režie|Režie|Režie|Animátor/Animace|Režie,Undirected
+140,608,1,15561,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+140,685,1,12352,Režie,Animace,Režie,Animátor/Animace,Undirected
+140,12357,2,12352|16017,Režie|Režie,Produkce|Produkce,Režie|Režie,Produkce|Produkce,Undirected
+143,450,1,1155,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+143,1132,3,1155|1483|1609,Režie|Režie|Režie,Režie|Animace|Animace,Režie|Režie|Režie,Režie|Animátor/Animace|Animátor/Animace,Undirected
+143,1138,1,1609,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+143,1157,1,1155,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+143,1259,2,1483|1609,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+143,1851,2,1483|1609,Režie|Režie,Produkce|Produkce,Režie|Režie,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+156,525,1,15784,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+180,450,1,1709,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+180,1132,1,1709,Režie,Animace,Režie,Animátor/Animace,Undirected
+180,1259,2,1640|1709,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+180,2299,1,1640,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+180,7961,1,1709,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+392,413,1,1389,Režie,Animace,Režie,Animátor/Animace,Undirected
+392,1125,1,1389,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+413,417,1,1624,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+413,432,2,1151|1158,"Animace, Režie|Animace, Režie",Animace|Animace,"Animátor/Animace, Režie|Animátor/Animace, Režie",Animátor/Animace|Animátor/Animace,Undirected
+413,450,1,1121,"Animace, Režie",Produkce,"Animátor/Animace, Režie",Vedoucí produkce/Vedoucí výroby,Undirected
+413,1125,6,1151|1158|1389|1482|1624|11753,"Animace, Režie|Animace, Režie|Animace|Režie|Animace|Režie",Produkce|Produkce|Produkce|Produkce|Produkce|Produkce,"Animátor/Animace, Režie|Animátor/Animace, Režie|Animátor/Animace|Režie|Animátor/Animace|Režie",Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+413,6422,1,6439,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+417,1125,2,1586|1624,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+432,450,1,11759,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+432,1125,2,1151|1158,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+442,520,1,895,Animace,Režie,Animátor/Animace,Režie,Undirected
+442,530,1,1860,Animace,Režie,Animátor/Animace,Režie,Undirected
+442,531,2,895|956,Animace|Režie,Animace|Animace,Animátor/Animace|Režie,Animátor/Animace|Animátor/Animace,Undirected
+442,533,1,1860,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+442,536,1,1860,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+442,552,1,956,Režie,Animace,Režie,Animátor/Animace,Undirected
+442,553,2,895|7243,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+442,554,1,2376,Režie,Animace,Režie,Animátor/Animace,Undirected
+442,555,2,956|7243,Režie|Animace,Animace|Animace,Režie|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+442,556,2,720|956,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+442,562,2,720|956,Režie|Režie,Produkce|Produkce,Režie|Režie,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+442,565,1,7243,Animace,Režie,Animátor/Animace,Režie,Undirected
+442,571,2,895|7243,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+442,615,1,720,Režie,Animace,Režie,Animátor/Animace,Undirected
+442,628,1,15862,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+442,644,1,2376,Režie,Animace,Režie,Animátor/Animace,Undirected
+442,646,3,895|2376|7243,Animace|Režie|Animace,Produkce|Produkce|Produkce,Animátor/Animace|Režie|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+442,685,2,720|956,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+442,721,2,720|895,Režie|Animace,Animace|Animace,Režie|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+442,736,1,895,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+442,782,3,895|956|2376,Animace|Režie|Režie,Animace|Animace|Animace,Animátor/Animace|Režie|Režie,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+442,796,1,1860,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+442,962,1,1111,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+450,1132,2,1155|1709,Produkce|Produkce,Režie|Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Režie|Animátor/Animace,Undirected
+450,1157,1,1155,Produkce,Produkce,Vedoucí produkce/Vedoucí výroby,Vedoucí produkce/Vedoucí výroby,Undirected
+450,1259,1,1709,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+450,7961,1,1709,Produkce,Produkce,Vedoucí produkce/Vedoucí výroby,Vedoucí produkce/Vedoucí výroby,Undirected
+457,531,4,1012|1062|3200|3203,Režie|Režie|Režie|Režie,Animace|Animace|Animace|Animace,Režie|Režie|Režie|Režie,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+457,533,1,1012,Režie,Animace,Režie,Animátor/Animace,Undirected
+457,553,1,1012,Režie,Animace,Režie,Animátor/Animace,Undirected
+457,562,2,3200|3203,Režie|Režie,Produkce|Produkce,Režie|Režie,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+457,608,1,829,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+457,631,1,1012,Režie,Animace,Režie,Animátor/Animace,Undirected
+457,644,1,1012,Režie,Animace,Režie,Animátor/Animace,Undirected
+457,646,1,829,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+457,718,1,1012,Režie,Animace,Režie,Animátor/Animace,Undirected
+457,721,4,1012|1062|3200|3203,Režie|Režie|Režie|Režie,Animace|Animace|Animace|Animace,Režie|Režie|Režie|Režie,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+457,736,4,1012|1062|3200|3203,Režie|Režie|Režie|Režie,Animace|Animace|Animace|Animace,Režie|Režie|Režie|Režie,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+457,782,3,1012|3200|3203,Režie|Režie|Režie,Animace|Animace|Animace,Režie|Režie|Režie,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+457,962,1,1012,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+520,531,2,895|1533,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+520,533,1,1928,Režie,Animace,Režie,Animátor/Animace,Undirected
+520,534,1,17607,Režie,Animace,Režie,Animátor/Animace,Undirected
+520,542,2,2054|17607,Režie|Režie,Produkce|Produkce,Režie|Režie,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+520,553,2,895|1533,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+520,555,2,918|1533,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+520,562,1,1928,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+520,571,3,895|918|1533,Režie|Režie|Režie,Animace|Animace|Animace,Režie|Režie|Režie,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+520,587,1,17607,Režie,Animace,Režie,Animátor/Animace,Undirected
+520,628,1,918,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+520,646,3,895|1011|1938,Režie|Režie|Režie,Produkce|Produkce|Produkce,Režie|Režie|Režie,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+520,685,1,1928,Režie,Animace,Režie,Animátor/Animace,Undirected
+520,721,3,895|1533|1928,Režie|Režie|Režie,Animace|Animace|Animace,Režie|Režie|Režie,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+520,736,3,895|1533|1928,Režie|Režie|Režie,Animace|Animace|Animace,Režie|Režie|Režie,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+520,782,3,895|1533|1928,Režie|Režie|Režie,Animace|Animace|Animace,Režie|Režie|Režie,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+527,922,1,16801,Animace,Režie,Animátor/Animace,Režie,Undirected
+527,1958,1,16801,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+527,1959,1,16801,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+527,3050,1,16801,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+530,531,2,1862|2016,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+530,533,2,1860|1862,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+530,536,1,1860,Režie,Animace,Režie,Animátor/Animace,Undirected
+530,542,1,9252,Režie,Režie,Režie,Režie,Undirected
+530,553,2,1862|2016,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+530,554,1,1862,Režie,Animace,Režie,Animátor/Animace,Undirected
+530,556,1,1862,Režie,Animace,Režie,Animátor/Animace,Undirected
+530,571,1,1862,Režie,Animace,Režie,Animátor/Animace,Undirected
+530,573,1,1862,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+530,608,1,1858,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+530,614,1,1862,Režie,Animace,Režie,Animátor/Animace,Undirected
+530,644,1,1862,Režie,Animace,Režie,Animátor/Animace,Undirected
+530,646,1,2016,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+530,685,2,1862|2016,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+530,718,1,1862,Režie,Animace,Režie,Animátor/Animace,Undirected
+530,721,2,1862|2016,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+530,736,1,1862,Režie,Animace,Režie,Animátor/Animace,Undirected
+530,782,1,1862,Režie,Animace,Režie,Animátor/Animace,Undirected
+530,795,1,1862,Režie,Animace,Režie,Animátor/Animace,Undirected
+530,796,2,1860|1862,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+530,962,1,1862,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+530,1654,1,1862,Režie,Animace,Režie,Animátor/Animace,Undirected
+530,1655,1,1862,Režie,Animace,Režie,Animátor/Animace,Undirected
+530,12357,1,16017,Animace,Produkce,Animátor/Animace,Produkce,Undirected
+531,533,2,1012|1862,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+531,552,1,956,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+531,553,5,895|1012|1533|1862|2016,Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+531,554,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+531,555,2,956|1533,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+531,556,2,956|1862,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+531,562,3,956|3200|3203,Animace|Animace|Animace,Produkce|Produkce|Produkce,Animátor/Animace|Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+531,571,3,895|1533|1862,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+531,573,1,1862,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+531,614,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+531,631,1,1012,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+531,644,2,1012|1862,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+531,646,2,895|2016,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+531,685,3,956|1862|2016,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+531,718,2,1012|1862,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+531,721,8,895|1012|1062|1533|1862|2016|3200|3203,Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+531,736,7,895|1012|1062|1533|1862|3200|3203,Animace|Animace|Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+531,782,7,895|956|1012|1533|1862|3200|3203,Animace|Animace|Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+531,795,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+531,796,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+531,962,2,1012|1862,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+531,1654,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+531,1655,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+533,535,2,851|15592,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Režie|Režie,Undirected
+533,536,1,1860,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+533,553,4,851|1012|1862|15592,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+533,554,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+533,555,1,851,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+533,556,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+533,562,2,851|1928,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Produkce|Vedoucí produkce/Vedoucí výroby,Undirected
+533,571,3,851|1862|15592,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+533,573,1,1862,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+533,614,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+533,628,2,630|9268,Animace|Režie,Produkce|Produkce,Animátor/Animace|Režie,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+533,631,3,630|1012|15592,Animace|Animace|Animace,Režie|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Režie|Animátor/Animace|Animátor/Animace,Undirected
+533,644,4,630|851|1012|1862,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+533,685,2,1862|1928,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+533,718,2,1012|1862,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+533,721,3,1012|1862|1928,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+533,736,5,630|1012|1862|1928|15592,Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+533,782,4,630|1012|1862|1928,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+533,795,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+533,796,2,1860|1862,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+533,962,2,1012|1862,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+533,1654,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+533,1655,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+533,5987,1,5980,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+533,7442,1,9268,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+533,9270,1,9268,Režie,Režie,Režie,Režie,Undirected
+534,535,5,3020|3076|3082|16038|16058,"Animace|Animace|Animace|Animace, Režie|Animace","Animace|Animace|Animace, Režie|Animace|Animace","Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek, Režie|Animátor/Animace","Animátor/Animace|Animátor/Animace|Animátor/Animace, Režie|Hra loutek / Vedení loutek|Animátor/Animace",Undirected
+534,542,11,3020|3024|3076|3082|7337|16002|16005|16038|16058|16141|17607,"Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace, Režie|Animace|Animace, Režie|Animace",Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce,"Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Hra loutek / Vedení loutek|Animátor/Animace|Hra loutek / Vedení loutek, Režie|Animátor/Animace|Animátor/Animace, Režie|Animátor/Animace",Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Produkce|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+534,582,2,3020|3076,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Režie|Režie,Undirected
+534,587,8,3024|3076|3082|16002|16005|16058|16141|17607,"Animace|Animace|Animace|Animace|Animace|Animace|Animace, Režie|Animace","Animace|Animace|Animace|Animace, Režie|Animace|Animace|Animace|Animace","Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace|Animátor/Animace, Režie|Animátor/Animace","Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek, Režie|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace",Undirected
+534,922,3,3020|3082|16058,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+534,1800,4,3024|16002|16005|16141,"Animace|Animace|Animace|Animace, Režie",Animace|Animace|Animace|Animace,"Hra loutek / Vedení loutek|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace, Režie",Hra loutek / Vedení loutek|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace,Undirected
+534,1868,4,3024|7337|16005|16141,"Animace|Animace|Animace|Animace, Režie",Animace|Animace|Animace|Animace,"Hra loutek / Vedení loutek|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace, Režie",Hra loutek / Vedení loutek|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace,Undirected
+534,1869,2,16005|16141,"Animace|Animace, Režie",Animace|Animace,"Animátor/Animace|Animátor/Animace, Režie",Animátor/Animace|Animátor/Animace,Undirected
+534,1947,5,3020|3024|3076|16038|16058,"Animace|Animace|Animace|Animace, Režie|Animace","Animace|Režie|Animace|Animace|Animace, Režie","Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Hra loutek / Vedení loutek, Režie|Animátor/Animace","Animátor/Animace|Režie|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace, Režie",Undirected
+534,1949,1,3024,Animace,Produkce,Hra loutek / Vedení loutek,Vedoucí produkce/Vedoucí výroby,Undirected
+534,1989,3,3076|16038|16058,"Animace|Animace, Režie|Animace",Produkce|Produkce|Produkce,"Animátor/Animace|Hra loutek / Vedení loutek, Režie|Animátor/Animace",Produkce|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+534,2540,4,3020|3076|16038|16058,"Animace|Animace|Animace, Režie|Animace",Animace|Animace|Animace|Animace,"Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek, Režie|Animátor/Animace",Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace,Undirected
+534,16007,1,16005,Animace,Režie,Animátor/Animace,Režie,Undirected
+535,542,8,3020|3071|3075|3076|3082|3103|16038|16058,"Animace|Animace|Animace|Animace|Animace, Režie|Animace, Režie|Animace|Animace",Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce,"Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace, Režie|Hra loutek / Vedení loutek, Režie|Hra loutek / Vedení loutek|Animátor/Animace",Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Produkce|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+535,553,2,851|15592,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+535,555,1,851,Režie,Animace,Režie,Animátor/Animace,Undirected
+535,562,1,851,Režie,Produkce,Režie,Produkce,Undirected
+535,571,2,851|15592,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+535,582,4,3020|3071|3075|3076,Animace|Animace|Animace|Animace,Režie|Režie|Režie|Režie,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Režie|Režie|Režie|Režie,Undirected
+535,587,6,3071|3075|3076|3082|3103|16058,"Animace|Animace|Animace|Animace, Režie|Animace, Režie|Animace",Animace|Animace|Animace|Animace|Animace|Animace,"Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace, Režie|Hra loutek / Vedení loutek, Režie|Animátor/Animace",Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace,Undirected
+535,631,1,15592,Režie,Animace,Režie,Animátor/Animace,Undirected
+535,644,1,851,Režie,Animace,Režie,Animátor/Animace,Undirected
+535,736,1,15592,Režie,Animace,Režie,Animátor/Animace,Undirected
+535,922,5,3020|3082|3103|9274|16058,"Animace|Animace, Režie|Animace, Režie|Režie|Animace",Animace|Animace|Animace|Animace|Animace,"Animátor/Animace|Animátor/Animace, Režie|Hra loutek / Vedení loutek, Režie|Režie|Animátor/Animace",Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace,Undirected
+535,953,2,3048|15594,"Animace, Režie|Režie",Animace|Animace,"Animátor/Animace, Režie|Režie",Hra loutek / Vedení loutek|Animátor/Animace,Undirected
+535,1610,2,3071|3075,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+535,1800,1,9274,Režie,Animace,Režie,Animátor/Animace,Undirected
+535,1947,6,3020|3071|3075|3076|16038|16058,Animace|Animace|Animace|Animace|Animace|Animace,"Animace|Animace|Animace|Animace|Animace|Animace, Režie",Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace,"Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace, Režie",Undirected
+535,1958,6,3048|3054|9274|9317|9319|15594,"Animace, Režie|Režie|Režie|Režie|Režie|Režie",Animace|Animace|Animace|Animace|Animace|Animace,"Animátor/Animace, Režie|Režie|Režie|Režie|Režie|Režie",Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+535,1959,6,3048|3054|9274|9317|9319|15594,"Animace, Režie|Režie|Režie|Režie|Režie|Režie",Produkce|Produkce|Produkce|Produkce|Produkce|Produkce,"Animátor/Animace, Režie|Režie|Režie|Režie|Režie|Režie",Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+535,1989,6,3071|3075|3076|3103|16038|16058,"Animace|Animace|Animace|Animace, Režie|Animace|Animace",Produkce|Produkce|Produkce|Produkce|Produkce|Produkce,"Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek, Režie|Hra loutek / Vedení loutek|Animátor/Animace",Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Produkce|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+535,2540,5,3020|3076|3103|16038|16058,"Animace|Animace|Animace, Režie|Animace|Animace",Animace|Animace|Animace|Animace|Animace,"Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek, Režie|Hra loutek / Vedení loutek|Animátor/Animace",Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Hra loutek / Vedení loutek|Animátor/Animace,Undirected
+535,3050,5,3048|3054|9317|9319|15594,"Animace, Režie|Režie|Režie|Režie|Režie",Animace|Animace|Animace|Animace|Animace,"Animátor/Animace, Režie|Režie|Režie|Režie|Režie",Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+536,796,1,1860,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+542,577,1,7265,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Režie,Undirected
+542,582,7,2582|3020|3035|3071|3075|3076|3123,Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce,Režie|Režie|Režie|Režie|Režie|Režie|Režie,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Produkce|Vedoucí produkce/Vedoucí výroby,Režie|Režie|Režie|Režie|Režie|Režie|Režie,Undirected
+542,587,14,3024|3071|3075|3076|3082|3103|3123|16002|16005|16058|16141|17573|17580|17607,Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce,"Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace, Režie|Animace|Animace|Animace|Režie|Režie|Animace",Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Produkce|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,"Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Hra loutek / Vedení loutek|Hra loutek / Vedení loutek, Režie|Animátor/Animace|Animátor/Animace|Animátor/Animace|Režie|Režie|Animátor/Animace",Undirected
+542,922,5,3020|3082|3103|16058|17574,Produkce|Produkce|Produkce|Produkce|Produkce,Animace|Animace|Animace|Animace|Režie,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Režie,Undirected
+542,1610,2,3071|3075,Produkce|Produkce,Produkce|Produkce,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+542,1800,6,3024|16001|16002|16003|16005|16141,Produkce|Produkce|Produkce|Produkce|Produkce|Produkce,Animace|Animace|Animace|Animace|Animace|Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Hra loutek / Vedení loutek|Animátor/Animace|Hra loutek / Vedení loutek|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace,Undirected
+542,1868,7,3024|3123|7337|16001|16003|16005|16141,Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce,Animace|Animace|Animace|Animace|Animace|Animace|Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Hra loutek / Vedení loutek|Hra loutek / Vedení loutek|Hra loutek / Vedení loutek|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace,Undirected
+542,1869,5,3123|16001|16003|16005|16141,Produkce|Produkce|Produkce|Produkce|Produkce,Animace|Animace|Animace|Animace|Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Hra loutek / Vedení loutek|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace,Undirected
+542,1947,14,3020|3024|3071|3075|3076|3123|16001|16003|16038|16058|16060|17445|17559|17580,Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce,"Animace|Režie|Animace|Animace|Animace|Animace|Režie|Režie|Animace|Animace, Režie|Režie|Režie|Režie|Režie",Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Produkce|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,"Animátor/Animace|Režie|Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Režie|Režie|Hra loutek / Vedení loutek|Animátor/Animace, Režie|Režie|Režie|Režie|Režie",Undirected
+542,1949,1,3024,Produkce,Produkce,Vedoucí produkce/Vedoucí výroby,Vedoucí produkce/Vedoucí výroby,Undirected
+542,1989,8,2582|3071|3075|3076|3103|7265|16038|16058,Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce,Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Produkce|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Produkce|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+542,2339,1,16009,Produkce,Produkce,Vedoucí produkce/Vedoucí výroby,Vedoucí produkce/Vedoucí výroby,Undirected
+542,2540,5,3020|3076|3103|16038|16058,Produkce|Produkce|Produkce|Produkce|Produkce,Animace|Animace|Animace|Animace|Animace,Vedoucí produkce/Vedoucí výroby|Produkce|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Hra loutek / Vedení loutek|Animátor/Animace,Undirected
+542,3039,1,3035,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Hra loutek / Vedení loutek,Undirected
+542,3040,1,3035,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Hra loutek / Vedení loutek,Undirected
+542,16007,1,16005,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Režie,Undirected
+542,16010,1,16009,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Režie,Undirected
+552,555,1,956,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+552,556,1,956,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+552,562,1,956,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+552,685,1,956,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+552,782,1,956,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+553,554,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+553,555,5,851|1015|1533|7236|7243,Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+553,556,2,1862|7236,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+553,562,3,851|1015|7236,Animace|Animace|Animace,Produkce|Produkce|Produkce,Animátor/Animace|Animátor/Animace|Animátor/Animace,Produkce|Produkce|Vedoucí produkce/Vedoucí výroby,Undirected
+553,565,3,7236|7239|7243,Animace|Animace|Animace,Režie|Režie|Režie,Animátor/Animace|Animátor/Animace|Animátor/Animace,Režie|Režie|Režie,Undirected
+553,571,7,851|895|1533|1862|7239|7243|15592,Animace|Animace|Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+553,573,1,1862,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+553,614,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+553,631,3,1012|1015|15592,Animace|Animace|Animace,Animace|Režie|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Režie|Animátor/Animace,Undirected
+553,644,3,851|1012|1862,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+553,646,4,895|2016|7236|7243,Animace|Animace|Animace|Animace,Produkce|Produkce|Produkce|Produkce,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+553,685,4,1015|1862|2016|7236,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+553,718,3,1012|1015|1862,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+553,721,6,895|1012|1015|1533|1862|2016,Animace|Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+553,736,6,895|1012|1015|1533|1862|15592,Animace|Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+553,782,6,895|1012|1015|1533|1862|7236,Animace|Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+553,795,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+553,796,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+553,962,3,1012|1862|7239,Animace|Animace|Animace,Produkce|Produkce|Produkce,Animátor/Animace|Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+553,1654,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+553,1655,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+554,556,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+554,571,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+554,573,1,1862,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+554,614,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+554,644,2,1862|2376,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+554,646,1,2376,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+554,685,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+554,718,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+554,721,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+554,736,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+554,782,2,1862|2376,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+554,795,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+554,796,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+554,962,1,1862,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+554,1654,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+554,1655,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+555,556,2,956|7236,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+555,562,4,851|956|1015|7236,Animace|Animace|Animace|Animace,Produkce|Produkce|Produkce|Produkce,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Produkce|Vedoucí produkce/Vedoucí výroby|Produkce|Vedoucí produkce/Vedoucí výroby,Undirected
+555,565,2,7236|7243,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Režie|Režie,Undirected
+555,571,4,851|918|1533|7243,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+555,628,1,918,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+555,631,1,1015,Animace,Režie,Animátor/Animace,Režie,Undirected
+555,644,1,851,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+555,646,2,7236|7243,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+555,685,3,956|1015|7236,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+555,718,1,1015,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+555,721,2,1015|1533,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+555,736,2,1015|1533,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+555,782,4,956|1015|1533|7236,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+556,562,3,720|956|7236,Animace|Animace|Animace,Produkce|Produkce|Produkce,Animátor/Animace|Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+556,565,1,7236,Animace,Režie,Animátor/Animace,Režie,Undirected
+556,571,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+556,573,1,1862,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+556,614,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+556,615,1,720,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+556,644,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+556,646,1,7236,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+556,685,4,720|956|1862|7236,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+556,718,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+556,721,2,720|1862,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+556,736,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+556,782,3,956|1862|7236,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+556,795,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+556,796,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+556,962,1,1862,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+556,1654,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+556,1655,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+562,565,2,7236|7237,Produkce|Produkce,Režie|Režie,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Režie|Režie,Undirected
+562,571,1,851,Produkce,Animace,Produkce,Animátor/Animace,Undirected
+562,615,1,720,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+562,631,1,1015,Produkce,Režie,Produkce,Režie,Undirected
+562,644,1,851,Produkce,Animace,Produkce,Animátor/Animace,Undirected
+562,646,2,7236|7237,Produkce|Produkce,Produkce|Produkce,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+562,685,5,720|956|1015|1928|7236,Produkce|Produkce|Produkce|Produkce|Produkce,Animace|Animace|Animace|Animace|Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Produkce|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+562,718,1,1015,Produkce,Animace,Produkce,Animátor/Animace,Undirected
+562,721,5,720|1015|1928|3200|3203,Produkce|Produkce|Produkce|Produkce|Produkce,Animace|Animace|Animace|Animace|Animace,Vedoucí produkce/Vedoucí výroby|Produkce|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+562,736,4,1015|1928|3200|3203,Produkce|Produkce|Produkce|Produkce,Animace|Animace|Animace|Animace,Produkce|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+562,782,6,956|1015|1928|3200|3203|7236,Produkce|Produkce|Produkce|Produkce|Produkce|Produkce,Animace|Animace|Animace|Animace|Animace|Animace,Vedoucí produkce/Vedoucí výroby|Produkce|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+565,571,3,7239|7241|7243,Režie|Režie|Režie,"Animace|Animace, Režie|Animace",Režie|Režie|Režie,"Animátor/Animace|Animátor/Animace, Režie|Animátor/Animace",Undirected
+565,627,1,7241,Režie,Animace,Režie,Animátor/Animace,Undirected
+565,646,3,7236|7237|7243,Režie|Režie|Režie,Produkce|Produkce|Produkce,Režie|Režie|Režie,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+565,685,1,7236,Režie,Animace,Režie,Animátor/Animace,Undirected
+565,718,1,7241,Režie,Animace,Režie,Animátor/Animace,Undirected
+565,782,1,7236,Režie,Animace,Režie,Animátor/Animace,Undirected
+565,881,1,7241,Režie,Animace,Režie,Animátor/Animace,Undirected
+565,962,1,7239,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+565,1655,1,7241,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+571,573,1,1862,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+571,614,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+571,627,1,7241,"Animace, Režie",Animace,"Animátor/Animace, Režie",Animátor/Animace,Undirected
+571,628,1,918,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+571,631,1,15592,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+571,644,2,851|1862,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+571,646,2,895|7243,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+571,685,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+571,718,2,1862|7241,"Animace|Animace, Režie",Animace|Animace,"Animátor/Animace|Animátor/Animace, Režie",Animátor/Animace|Animátor/Animace,Undirected
+571,721,3,895|1533|1862,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+571,736,4,895|1533|1862|15592,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+571,782,3,895|1533|1862,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+571,795,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+571,796,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+571,881,1,7241,"Animace, Režie",Animace,"Animátor/Animace, Režie",Animátor/Animace,Undirected
+571,962,2,1862|7239,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+571,1654,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+571,1655,2,1862|7241,"Animace|Animace, Režie",Animace|Produkce,"Animátor/Animace|Animátor/Animace, Režie",Animátor/Animace|Vedoucí produkce/Vedoucí výroby,Undirected
+573,614,1,1862,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+573,644,1,1862,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+573,685,1,1862,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+573,718,1,1862,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+573,721,1,1862,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+573,736,1,1862,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+573,782,1,1862,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+573,795,1,1862,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+573,796,1,1862,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+573,962,1,1862,Produkce,Produkce,Vedoucí produkce/Vedoucí výroby,Vedoucí produkce/Vedoucí výroby,Undirected
+573,1654,1,1862,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+573,1655,1,1862,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+577,1989,1,7265,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+582,587,4,3071|3075|3076|3123,Režie|Režie|Režie|Režie,Animace|Animace|Animace|Animace,Režie|Režie|Režie|Režie,Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek,Undirected
+582,644,1,651,Režie,Animace,Režie,Animátor/Animace,Undirected
+582,646,1,651,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+582,922,1,3020,Režie,Animace,Režie,Animátor/Animace,Undirected
+582,1610,2,3071|3075,Režie|Režie,Produkce|Produkce,Režie|Režie,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+582,1868,1,3123,Režie,Animace,Režie,Hra loutek / Vedení loutek,Undirected
+582,1869,1,3123,Režie,Animace,Režie,Hra loutek / Vedení loutek,Undirected
+582,1947,5,3020|3071|3075|3076|3123,Režie|Režie|Režie|Režie|Režie,Animace|Animace|Animace|Animace|Animace,Režie|Režie|Režie|Režie|Režie,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek,Undirected
+582,1989,4,2582|3071|3075|3076,Režie|Režie|Režie|Režie,Produkce|Produkce|Produkce|Produkce,Režie|Režie|Režie|Režie,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Produkce,Undirected
+582,2540,2,3020|3076,Režie|Režie,Animace|Animace,Režie|Režie,Animátor/Animace|Animátor/Animace,Undirected
+582,3039,1,3035,Režie,Animace,Režie,Hra loutek / Vedení loutek,Undirected
+582,3040,1,3035,Režie,Animace,Režie,Hra loutek / Vedení loutek,Undirected
+587,922,4,3082|3103|16058|16796,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Režie,Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Hra loutek / Vedení loutek,Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Režie,Undirected
+587,953,1,16796,Animace,Animace,Hra loutek / Vedení loutek,Hra loutek / Vedení loutek,Undirected
+587,1610,2,3071|3075,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+587,1800,4,3024|16002|16005|16141,"Animace|Animace, Režie|Animace|Animace",Animace|Animace|Animace|Animace,"Hra loutek / Vedení loutek|Hra loutek / Vedení loutek, Režie|Animátor/Animace|Animátor/Animace",Hra loutek / Vedení loutek|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace,Undirected
+587,1868,4,3024|3123|16005|16141,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace,Hra loutek / Vedení loutek|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace,Hra loutek / Vedení loutek|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace,Undirected
+587,1869,3,3123|16005|16141,Animace|Animace|Animace,Animace|Animace|Animace,Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace,Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace,Undirected
+587,1947,7,3024|3071|3075|3076|3123|16058|17580,Animace|Animace|Animace|Animace|Animace|Animace|Režie,"Režie|Animace|Animace|Animace|Animace|Animace, Režie|Režie",Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Režie,"Režie|Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace, Režie|Režie",Undirected
+587,1949,1,3024,Animace,Produkce,Hra loutek / Vedení loutek,Vedoucí produkce/Vedoucí výroby,Undirected
+587,1958,1,16796,Animace,Animace,Hra loutek / Vedení loutek,Hra loutek / Vedení loutek,Undirected
+587,1959,1,16796,Animace,Produkce,Hra loutek / Vedení loutek,Vedoucí produkce/Vedoucí výroby,Undirected
+587,1989,5,3071|3075|3076|3103|16058,Animace|Animace|Animace|Animace|Animace,Produkce|Produkce|Produkce|Produkce|Produkce,Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Produkce|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+587,2540,3,3076|3103|16058,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace,Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace,Undirected
+587,3050,1,16796,Animace,Animace,Hra loutek / Vedení loutek,Hra loutek / Vedení loutek,Undirected
+587,16007,1,16005,Animace,Režie,Animátor/Animace,Režie,Undirected
+608,646,1,829,Produkce,Produkce,Vedoucí produkce/Vedoucí výroby,Vedoucí produkce/Vedoucí výroby,Undirected
+614,644,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+614,685,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+614,718,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+614,721,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+614,736,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+614,782,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+614,795,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+614,796,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+614,962,1,1862,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+614,1654,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+614,1655,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+615,685,1,720,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+615,721,1,720,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+627,718,1,7241,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+627,881,1,7241,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+627,1655,1,7241,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+628,631,1,630,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Režie,Undirected
+628,644,1,630,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+628,685,1,6538,Produkce,"Animace, Režie",Vedoucí produkce/Vedoucí výroby,"Animátor/Animace, Režie",Undirected
+628,736,1,630,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+628,782,1,630,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+628,7442,1,9268,Produkce,Produkce,Vedoucí produkce/Vedoucí výroby,Vedoucí produkce/Vedoucí výroby,Undirected
+628,9270,1,9268,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Režie,Undirected
+631,644,2,630|1012,Režie|Animace,Animace|Animace,Režie|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+631,646,1,9299,"Animace, Režie",Produkce,"Animátor/Animace, Režie",Vedoucí produkce/Vedoucí výroby,Undirected
+631,685,1,1015,Režie,Animace,Režie,Animátor/Animace,Undirected
+631,718,2,1012|1015,Animace|Režie,Animace|Animace,Animátor/Animace|Režie,Animátor/Animace|Animátor/Animace,Undirected
+631,721,2,1012|1015,Animace|Režie,Animace|Animace,Animátor/Animace|Režie,Animátor/Animace|Animátor/Animace,Undirected
+631,736,4,630|1012|1015|15592,Režie|Animace|Režie|Animace,Animace|Animace|Animace|Animace,Režie|Animátor/Animace|Režie|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+631,782,3,630|1012|1015,Režie|Animace|Režie,Animace|Animace|Animace,Režie|Animátor/Animace|Režie,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+631,953,1,9256,Režie,Animace,Režie,Animátor/Animace,Undirected
+631,962,1,1012,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+631,1958,1,9256,Režie,Animace,Režie,Animátor/Animace,Undirected
+631,1959,1,9256,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+631,3050,1,9256,Režie,Animace,Režie,Animátor/Animace,Undirected
+644,646,2,651|2376,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+644,685,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+644,718,2,1012|1862,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+644,721,2,1012|1862,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+644,736,3,630|1012|1862,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+644,782,4,630|1012|1862|2376,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+644,795,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+644,796,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+644,962,2,1012|1862,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+644,1654,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+644,1655,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+646,685,2,2016|7236,Produkce|Produkce,Animace|Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Animátor/Animace|Animátor/Animace,Undirected
+646,721,2,895|2016,Produkce|Produkce,Animace|Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Animátor/Animace|Animátor/Animace,Undirected
+646,736,1,895,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+646,782,3,895|2376|7236,Produkce|Produkce|Produkce,Animace|Animace|Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+685,718,2,1015|1862,Animace|Animace,Animace|Animace,Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace,Undirected
+685,721,5,720|1015|1862|1928|2016,Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+685,736,3,1015|1862|1928,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+685,782,5,956|1015|1862|1928|7236,Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+685,795,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+685,796,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+685,962,1,1862,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+685,1654,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+685,1655,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+685,6541,1,6539,"Animace, Režie",Produkce,"Animátor/Animace, Režie",Vedoucí produkce/Vedoucí výroby,Undirected
+685,12357,1,12352,Animace,Produkce,Animátor/Animace,Produkce,Undirected
+718,721,3,1012|1015|1862,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+718,736,3,1012|1015|1862,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+718,782,3,1012|1015|1862,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+718,795,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+718,796,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+718,881,1,7241,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+718,962,2,1012|1862,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+718,1654,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+718,1655,2,1862|7241,Animace|Animace,Animace|Produkce,Animátor/Animace|Animátor/Animace,Animátor/Animace|Vedoucí produkce/Vedoucí výroby,Undirected
+721,736,9,895|1012|1015|1062|1533|1862|1928|3200|3203,Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+721,782,8,895|1012|1015|1533|1862|1928|3200|3203,Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+721,795,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+721,796,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+721,962,2,1012|1862,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+721,1654,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+721,1655,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+736,782,9,630|895|1012|1015|1533|1862|1928|3200|3203,Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+736,795,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+736,796,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+736,962,2,1012|1862,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+736,1654,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+736,1655,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+782,795,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+782,796,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+782,962,2,1012|1862,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+782,1654,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+782,1655,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+795,796,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+795,962,1,1862,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+795,1654,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+795,1655,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+796,962,1,1862,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+796,1654,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+796,1655,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+881,1655,1,7241,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+922,953,1,16796,Režie,Animace,Režie,Hra loutek / Vedení loutek,Undirected
+922,1800,1,9274,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+922,1947,2,3020|16058,Animace|Animace,"Animace|Animace, Režie",Animátor/Animace|Animátor/Animace,"Animátor/Animace|Animátor/Animace, Režie",Undirected
+922,1958,5,1956|7339|9274|16796|16801,Režie|Režie|Animace|Režie|Režie,Animace|Animace|Animace|Animace|Animace,Režie|Režie|Animátor/Animace|Režie|Režie,Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace,Undirected
+922,1959,5,1956|7339|9274|16796|16801,Režie|Režie|Animace|Režie|Režie,Produkce|Produkce|Produkce|Produkce|Produkce,Režie|Režie|Animátor/Animace|Režie|Režie,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+922,1989,2,3103|16058,Animace|Animace,Produkce|Produkce,Hra loutek / Vedení loutek|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+922,2540,3,3020|3103|16058,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace,Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace,Undirected
+922,3050,4,1956|7339|16796|16801,Režie|Režie|Režie|Režie,Animace|Animace|Animace|Animace,Režie|Režie|Režie|Režie,Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace,Undirected
+953,1958,4,3048|9256|15594|16796,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace,Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek,Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek,Undirected
+953,1959,4,3048|9256|15594|16796,Animace|Animace|Animace|Animace,Produkce|Produkce|Produkce|Produkce,Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+953,3050,4,3048|9256|15594|16796,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace,Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek,Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek,Undirected
+962,1654,1,1862,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+962,1655,1,1862,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+1132,1138,1,1609,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+1132,1157,1,1155,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+1132,1259,3,1483|1609|1709,Animace|Animace|Animace,Animace|Animace|Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Animátor/Animace|Animátor/Animace|Animátor/Animace,Undirected
+1132,1851,2,1483|1609,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+1132,7961,1,1709,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+1138,1259,1,1609,Produkce,Animace,Vedoucí produkce/Vedoucí výroby,Animátor/Animace,Undirected
+1138,1851,1,1609,Produkce,Produkce,Vedoucí produkce/Vedoucí výroby,Vedoucí produkce/Vedoucí výroby,Undirected
+1259,1851,2,1483|1609,Animace|Animace,Produkce|Produkce,Animátor/Animace|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+1259,2299,1,1640,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+1259,7961,1,1709,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+1610,1947,2,3071|3075,Produkce|Produkce,Animace|Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Animátor/Animace|Animátor/Animace,Undirected
+1610,1989,2,3071|3075,Produkce|Produkce,Produkce|Produkce,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+1654,1655,1,1862,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+1800,1868,5,3024|16001|16003|16005|16141,Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace,Hra loutek / Vedení loutek|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace,Hra loutek / Vedení loutek|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace,Undirected
+1800,1869,4,16001|16003|16005|16141,Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace,Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace,Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace,Undirected
+1800,1947,3,3024|16001|16003,Animace|Animace|Animace,Režie|Režie|Režie,Hra loutek / Vedení loutek|Animátor/Animace|Hra loutek / Vedení loutek,Režie|Režie|Režie,Undirected
+1800,1949,1,3024,Animace,Produkce,Hra loutek / Vedení loutek,Vedoucí produkce/Vedoucí výroby,Undirected
+1800,1958,1,9274,Animace,Animace,Animátor/Animace,Animátor/Animace,Undirected
+1800,1959,1,9274,Animace,Produkce,Animátor/Animace,Vedoucí produkce/Vedoucí výroby,Undirected
+1800,16007,1,16005,Animace,Režie,Animátor/Animace,Režie,Undirected
+1868,1869,5,3123|16001|16003|16005|16141,Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace,Hra loutek / Vedení loutek|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace,Hra loutek / Vedení loutek|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace,Undirected
+1868,1947,4,3024|3123|16001|16003,Animace|Animace|Animace|Animace,Režie|Animace|Režie|Režie,Hra loutek / Vedení loutek|Hra loutek / Vedení loutek|Animátor/Animace|Hra loutek / Vedení loutek,Režie|Hra loutek / Vedení loutek|Režie|Režie,Undirected
+1868,1949,1,3024,Animace,Produkce,Hra loutek / Vedení loutek,Vedoucí produkce/Vedoucí výroby,Undirected
+1868,16007,1,16005,Animace,Režie,Animátor/Animace,Režie,Undirected
+1869,1947,3,3123|16001|16003,Animace|Animace|Animace,Animace|Režie|Režie,Hra loutek / Vedení loutek|Animátor/Animace|Hra loutek / Vedení loutek,Hra loutek / Vedení loutek|Režie|Režie,Undirected
+1869,16007,1,16005,Animace,Režie,Animátor/Animace,Režie,Undirected
+1947,1949,1,3024,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+1947,1989,5,3071|3075|3076|16038|16058,"Animace|Animace|Animace|Animace|Animace, Režie",Produkce|Produkce|Produkce|Produkce|Produkce,"Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace, Režie",Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Produkce|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+1947,2540,4,3020|3076|16038|16058,"Animace|Animace|Animace|Animace, Režie",Animace|Animace|Animace|Animace,"Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace, Režie",Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace,Undirected
+1947,6422,1,6419,Režie,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Undirected
+1958,1959,11,1956|3048|3054|7339|9256|9274|9317|9319|15594|16796|16801,Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace,Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce,Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Undirected
+1958,3050,10,1956|3048|3054|7339|9256|9317|9319|15594|16796|16801,Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace,Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace,Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace,Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace,Undirected
+1959,3050,10,1956|3048|3054|7339|9256|9317|9319|15594|16796|16801,Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce|Produkce,Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace|Animace,Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Animátor/Animace|Hra loutek / Vedení loutek|Animátor/Animace,Undirected
+1989,2540,4,3076|3103|16038|16058,Produkce|Produkce|Produkce|Produkce,Animace|Animace|Animace|Animace,Produkce|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby|Vedoucí produkce/Vedoucí výroby,Animátor/Animace|Hra loutek / Vedení loutek|Hra loutek / Vedení loutek|Animátor/Animace,Undirected
+2339,16010,1,16009,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Režie,Undirected
+3039,3040,1,3035,Animace,Animace,Hra loutek / Vedení loutek,Hra loutek / Vedení loutek,Undirected
+7442,9270,1,9268,Produkce,Režie,Vedoucí produkce/Vedoucí výroby,Režie,Undirected

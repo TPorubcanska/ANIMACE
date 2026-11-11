@@ -1,0 +1,74 @@
+[
+  {
+    "network": "Film-Osoba54-61",
+    "nodes": 591,
+    "edges": 2086,
+    "result": "PASS"
+  },
+  {
+    "network": "Collab54-61_Osoba-Osoba",
+    "nodes": 446,
+    "edges": 8560,
+    "result": "PASS"
+  },
+  {
+    "network": "Creatives54-61",
+    "nodes": 305,
+    "edges": 690,
+    "result": "PASS"
+  },
+  {
+    "network": "CreativesCollab54-61",
+    "nodes": 160,
+    "edges": 513,
+    "result": "PASS"
+  },
+  {
+    "network": "Production54-61_Film-Osoba",
+    "nodes": 237,
+    "edges": 519,
+    "result": "PASS"
+  },
+  {
+    "network": "Production54-61_Osoba-Osoba",
+    "nodes": 92,
+    "edges": 547,
+    "result": "PASS"
+  },
+  {
+    "network": "Film-Osoba61-69",
+    "nodes": 1035,
+    "edges": 4477,
+    "result": "PASS"
+  },
+  {
+    "network": "Collab61-69_Osoba-Osoba",
+    "nodes": 584,
+    "edges": 8621,
+    "result": "PASS"
+  },
+  {
+    "network": "Creatives61-69",
+    "nodes": 685,
+    "edges": 1889,
+    "result": "PASS"
+  },
+  {
+    "network": "CreativesCollab61-69",
+    "nodes": 234,
+    "edges": 713,
+    "result": "PASS"
+  },
+  {
+    "network": "Production61-69_Film-Osoba",
+    "nodes": 580,
+    "edges": 1229,
+    "result": "PASS"
+  },
+  {
+    "network": "Production61-69_Osoba-Osoba",
+    "nodes": 130,
+    "edges": 544,
+    "result": "PASS"
+  }
+]
