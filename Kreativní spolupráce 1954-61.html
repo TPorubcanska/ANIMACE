@@ -741,10 +741,40 @@ function select(n){
     attributes(e,false).forEach(line=>write('div',line,item));
   });
 }
+function focusNeighborhood(node){
+  stopZoom();
+  stopLayoutAnimation();
+  const neighborhood=[node,...new Set(node.links.filter(([,edge])=>visible(edge)).map(([neighbor])=>neighbor))];
+  const left=Math.min(...neighborhood.map(n=>n.x-n.r));
+  const right=Math.max(...neighborhood.map(n=>n.x+n.r));
+  const top=Math.min(...neighborhood.map(n=>n.y-n.r));
+  const bottom=Math.max(...neighborhood.map(n=>n.y+n.r));
+  const aspect=graph.clientWidth/graph.clientHeight||1.8;
+  const padding=Math.max(24,Math.max(right-left,bottom-top)*.12);
+  const width=Math.max(right-left+2*padding,(bottom-top+2*padding)*aspect,(bounds[0][1]-bounds[0][0])*.05);
+  const height=width/aspect;
+  const target=[(left+right-width)/2,(top+bottom-height)/2,width,height];
+  if(reducedMotion.matches){
+    view=target;
+    show();
+    return;
+  }
+  const start=view.slice(), started=performance.now();
+  function animate(now){
+    const progress=Math.min(1,Math.max(0,(now-started)/200));
+    const eased=1-(1-progress)**3;
+    view=start.map((value,i)=>value+(target[i]-value)*eased);
+    show();
+    zoomFrame=progress<1?requestAnimationFrame(animate):0;
+  }
+  zoomFrame=requestAnimationFrame(animate);
+}
 search.addEventListener('input',()=>{
   const q=search.value.trim().toLocaleLowerCase('cs');
   const exact=nodes.find(n=>n.Label.toLocaleLowerCase('cs')===q);
-  select(exact || (q ? nodes.find(n=>n.Label.toLocaleLowerCase('cs').includes(q)) : null));
+  const found=exact || (q ? nodes.find(n=>n.Label.toLocaleLowerCase('cs').includes(q)) : null);
+  select(found);
+  if(found)focusNeighborhood(found);
 });
 byId('reset').onclick=()=>{
   stopLayoutAnimation();
