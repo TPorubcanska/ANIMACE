@@ -4,6 +4,8 @@ const assert = require('node:assert/strict');
 const { pathToFileURL } = require('node:url');
 const { chromium } = require(path.join(process.argv[2], 'node', 'node_modules', 'playwright'));
 const results = [];
+const periods = process.argv.slice(3).length ? process.argv.slice(3) : ['1954-61', '1961-69'];
+const reportName = 'kontrola-' + periods[0].split('-')[0] + '-19' + periods.at(-1).split('-')[1];
 
 async function inspectGeometry(panel) {
   return panel.locator('[data-node]').evaluateAll(marks => {
@@ -39,7 +41,7 @@ async function inspectPreview(panel, withPanel) {
 (async () => {
   const browser = await chromium.launch({ channel: 'msedge', headless: true });
   try {
-    for (const period of ['1954-61', '1961-69']) {
+    for (const period of periods) {
       const page = await browser.newPage({ viewport: { width: 1440, height: 1100 }, reducedMotion: 'reduce' });
       page.setDefaultTimeout(120000);
       const errors = [];
@@ -121,6 +123,6 @@ async function inspectPreview(panel, withPanel) {
       console.log(period, 'mobile pinch PASS');
       await mobile.close();
     }
-    fs.writeFileSync('outputs/kontrola-1954-1969/html-kontrola.json', JSON.stringify(results, null, 2) + '\n');
+    fs.writeFileSync(path.join('outputs', reportName, 'html-kontrola.json'), JSON.stringify(results, null, 2) + '\n');
   } finally { await browser.close(); }
 })().catch(e => { console.error(e); process.exitCode = 1; });

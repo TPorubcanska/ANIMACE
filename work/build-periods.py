@@ -10,6 +10,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE = Path(sys.argv[1])
+PERIODS = [tuple(map(int, period.split('-'))) for period in sys.argv[2:]] or [(1954, 1961), (1961, 1969)]
+REPORT_NAME = f'kontrola-{PERIODS[0][0]}-{PERIODS[-1][1]}'
 PATTERN = re.compile(r'(<script id="data" type="application/json">)(.*?)(</script>)', re.S)
 template_path = ROOT / 'Kreativní spolupráce 1948-54.html'
 template = template_path.read_text(encoding='utf-8')
@@ -67,7 +69,7 @@ def project(credits, detailed):
     return edges
 
 
-for start, end in [(1954, 1961), (1961, 1969)]:
+for start, end in PERIODS:
     short = f'{start % 100:02d}-{end % 100:02d}'
     period = f'{start}-{end}'
     selected = []
@@ -165,15 +167,15 @@ for start, end in [(1954, 1961), (1961, 1969)]:
         if line['period'] == period:
             print(line)
 
-report_dir = ROOT / 'outputs' / 'kontrola-1954-1969'
+report_dir = ROOT / 'outputs' / REPORT_NAME
 write_csv(report_dir / 'duplicity.csv', list(duplicate_report[0]), duplicate_report)
 if normalization_report:
     write_csv(report_dir / 'sjednoceni-kategorii.csv', list(normalization_report[0]), normalization_report)
 write_csv(report_dir / 'pocty-siti.csv', list(summary[0]), summary)
 report = [
-    '# Kontrola sítí 1954–1961 a 1961–1969', '',
+    '# Kontrola sítí ' + ' a '.join(f'{start}–{end}' for start, end in PERIODS), '',
     f'Zdrojový soubor `{SOURCE.name}`. SHA-256 `{hashlib.sha256(SOURCE.read_bytes()).hexdigest()}`.', '',
-    'Období zahrnují oba krajní roky. Rok 1961 je proto v obou nových obdobích. Rok 1954 navazuje překryvem na předchozí období.', '',
+    'Období zahrnují oba krajní roky. Překrývající se roky jsou zahrnuty v každém příslušném období.', '',
     'Použity jsou vztahy film → fyzická osoba, typ `stab`, příznak Dataset Animace = 1 a rok výroby ve sloupci M. Pole za sloupcem Y nejsou součástí síťových záznamů.', '',
     'Kreativní profese zahrnují Hudba, Námět, Režie, Scénář, Výtvarník. Produkční výběr zahrnuje Režie, Animace, Produkce. Kategorie s příponou -other se do těchto užších výběrů nezařazují.', '',
     '## Duplicity', '',
@@ -189,7 +191,7 @@ for line in summary:
 
 index_path = ROOT / 'index.html'
 index = index_path.read_text(encoding='utf-8')
-for start, end in [(1954, 1961), (1961, 1969)]:
+for start, end in PERIODS:
     label = f'{start}–{end}'
     href = f'Kreativn%C3%AD%20spolupr%C3%A1ce%20{start}-{end % 100:02d}.html'
     if href not in index:

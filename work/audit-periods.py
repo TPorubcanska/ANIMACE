@@ -8,12 +8,14 @@ from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
 source = Path(sys.argv[1])
+periods = [tuple(map(int, period.split('-'))) for period in sys.argv[2:]] or [(1954, 1961), (1961, 1969)]
+report_name = f'kontrola-{periods[0][0]}-{periods[-1][1]}'
 with source.open(encoding='utf-8-sig', newline='') as stream:
     reader = csv.reader(stream, delimiter=';', strict=True)
     header = next(reader)
     rows = list(reader)
 report = []
-for start, end in [(1954, 1961), (1961, 1969)]:
+for start, end in periods:
     page = root / f'Kreativní spolupráce {start}-{end % 100:02d}.html'
     html = page.read_text(encoding='utf-8')
     networks = json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>', html, re.S)[1])
@@ -53,8 +55,12 @@ for start, end in [(1954, 1961), (1961, 1969)]:
         assert {tuple(edge.values()) for edge in source_net['edges']} == {
             edge for edge in expected if edge[2] in allowed}
         person_films = defaultdict(set)
+        credit_roles = defaultdict(set)
         for edge in source_net['edges']:
             person_films[edge['Target']].add(edge['Source'])
+            for field in ('pozice_kat', 'pozice_orig'):
+                if edge[field]:
+                    credit_roles[edge['Source'], edge['Target'], field].add(edge[field])
         if network['directed']:
             assert ids == {edge[field] for edge in edges for field in ('Source', 'Target')}
             assert all(full_nodes[edge['Source']]['Type'] == 'Film' and
@@ -78,8 +84,7 @@ for start, end in [(1954, 1961), (1961, 1969)]:
                     for field, source_field in [('Kat', 'pozice_kat'), ('Orig', 'pozice_orig')]:
                         key = f'P{person_index}_Roles_{field}'
                         if key in edge:
-                            expected_roles = [', '.join(sorted({credit[source_field] for credit in source_net['edges']
-                                if credit['Source'] == film and credit['Target'] == person and credit[source_field]}))
+                            expected_roles = [', '.join(sorted(credit_roles[film, person, source_field]))
                                 for film in edge['Shared_Films'].split('|')]
                             assert edge[key] == '|'.join(expected_roles)
             assert not expected_pairs
@@ -90,5 +95,5 @@ index = (root / 'index.html').read_text(encoding='utf-8')
 from urllib.parse import unquote
 for href in re.findall(r'href="([^"]+)"', index):
     assert (root / unquote(href)).is_file(), href
-(root / 'outputs' / 'kontrola-1954-1969' / 'datova-kontrola.json').write_text(
+(root / 'outputs' / report_name / 'datova-kontrola.json').write_text(
     json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

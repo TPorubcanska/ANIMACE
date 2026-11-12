@@ -1,0 +1,74 @@
+[
+  {
+    "period": "1968-77",
+    "network": "Film-Osoba68-77",
+    "milliseconds": 30009,
+    "result": "PASS"
+  },
+  {
+    "period": "1968-77",
+    "network": "Collab68-77_Osoba-Osoba",
+    "milliseconds": 41850,
+    "result": "PASS"
+  },
+  {
+    "period": "1968-77",
+    "network": "Creatives68-77",
+    "milliseconds": 43217,
+    "result": "PASS"
+  },
+  {
+    "period": "1968-77",
+    "network": "CreativesCollab68-77",
+    "milliseconds": 6362,
+    "result": "PASS"
+  },
+  {
+    "period": "1968-77",
+    "network": "Production68-77_Film-Osoba",
+    "milliseconds": 51374,
+    "result": "PASS"
+  },
+  {
+    "period": "1968-77",
+    "network": "Production68-77_Osoba-Osoba",
+    "milliseconds": 3677,
+    "result": "PASS"
+  },
+  {
+    "period": "1976-92",
+    "network": "Film-Osoba76-92",
+    "milliseconds": 49168,
+    "result": "PASS"
+  },
+  {
+    "period": "1976-92",
+    "network": "Collab76-92_Osoba-Osoba",
+    "milliseconds": 72368,
+    "result": "PASS"
+  },
+  {
+    "period": "1976-92",
+    "network": "Creatives76-92",
+    "milliseconds": 100299,
+    "result": "PASS"
+  },
+  {
+    "period": "1976-92",
+    "network": "CreativesCollab76-92",
+    "milliseconds": 18001,
+    "result": "PASS"
+  },
+  {
+    "period": "1976-92",
+    "network": "Production76-92_Film-Osoba",
+    "milliseconds": 159678,
+    "result": "PASS"
+  },
+  {
+    "period": "1976-92",
+    "network": "Production76-92_Osoba-Osoba",
+    "milliseconds": 8614,
+    "result": "PASS"
+  }
+]
