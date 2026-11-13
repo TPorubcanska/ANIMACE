@@ -4,6 +4,7 @@ import hashlib
 import json
 import re
 import sys
+import subprocess
 from collections import Counter, defaultdict
 from itertools import combinations
 from pathlib import Path
@@ -197,3 +198,4 @@ for start, end in PERIODS:
     if href not in index:
         index = index.replace('  </nav>', f'    <a href="{href}">{label}</a>\n  </nav>')
 index_path.write_text(index, encoding='utf-8')
+subprocess.run(['node', str(ROOT / 'work' / 'precompute-layouts.cjs')], cwd=ROOT, check=True)
